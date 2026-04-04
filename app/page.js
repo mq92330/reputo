@@ -17,7 +17,7 @@ export default function LandingPage() {
         <div className={styles.navLinks}>
           <a href="#fonctionnement">Fonctionnement</a>
           <a href="#tarifs">Tarifs</a>
-          <a href="/blog">Ressources</a>
+          <a href="/blog">Blog</a>
         </div>
         <div className={styles.navActions}>
           <a href="/login" className="btn-ghost" style={{padding:'8px 16px', fontSize:'13px'}}>Connexion</a>
@@ -310,11 +310,11 @@ export default function LandingPage() {
               <div className={styles.footerLinkTitle}>Produit</div>
               <a href="#fonctionnement">Fonctionnement</a>
               <a href="#tarifs">Tarifs</a>
-              <a href="/blog">Ressources SEO</a>
+              <a href="/blog">Blog</a>
             </div>
             <div>
               <div className={styles.footerLinkTitle}>Entreprise</div>
-              <a href="mailto:contact@reputo.fr">Contact</a>
+              <a href="/contact">Contact</a>
               <a href="/mentions-legales">Mentions légales</a>
               <a href="/confidentialite">Confidentialité</a>
             </div>

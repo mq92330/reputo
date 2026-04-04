@@ -13,7 +13,7 @@ create table profiles (
   profession text default 'medecin',
   praticien_name text default '',
   star_threshold integer default 4 check (star_threshold between 1 and 5),
-  credits integer default 5, -- 5 SMS offerts à l'inscription
+  credits integer default 20, -- 20 SMS offerts à l'inscription
   subscription_status text default 'active',
   created_at timestamptz default now()
 );
@@ -98,3 +98,15 @@ create index sms_logs_sent_at on sms_logs(sent_at desc);
 create index feedback_tokens_user_id on feedback_tokens(user_id);
 create index patient_feedbacks_user_id on patient_feedbacks(user_id);
 create index patient_feedbacks_read on patient_feedbacks(user_id, read);
+
+-- 6. CONTACT REQUESTS
+create table contact_requests (
+  id uuid default gen_random_uuid() primary key,
+  name text not null,
+  email text not null,
+  subject text,
+  message text not null,
+  created_at timestamptz default now()
+);
+alter table contact_requests enable row level security;
+create policy "service insert contact" on contact_requests for insert with check (true);
