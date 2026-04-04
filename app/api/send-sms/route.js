@@ -1,11 +1,14 @@
 import { NextResponse } from 'next/server';
-import { createClient } from '../../../lib/supabaseServer';
+import { createClient as createSupabaseClient } from '@supabase/supabase-js';
 import { sendSms } from '../../../lib/smsmode';
 import { randomUUID } from 'crypto';
 
 export async function POST(request) {
   try {
-    const supabase = createClient();
+    const supabase = createSupabaseClient(
+    process.env.NEXT_PUBLIC_SUPABASE_URL,
+    process.env.SUPABASE_SERVICE_ROLE_KEY
+  );
     const authHeader = request.headers.get('authorization');
     const authToken = authHeader?.replace('Bearer ', '');
     const { data: { user } } = await supabase.auth.getUser(authToken);
