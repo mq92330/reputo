@@ -193,7 +193,7 @@ export default function LandingPage() {
               { icon:'🔀', title:'Filtrage intelligent', text:'Votre seuil d\'étoiles configurable. Les patients insatisfaits ne vont jamais sur Google.' },
               { icon:'📊', title:'Tableau de bord temps réel', text:'Avis collectés, feedbacks reçus, SMS envoyés. Tout en un coup d\'oeil.' },
               { icon:'✏️', title:'SMS personnalisable', text:'Votre message, votre nom de cabinet, votre ton. Modifiable à tout moment.' },
-              { icon:'🔒', title:'Conforme RGPD', text:'Aucune donnée médicale. Hébergé en France. Numéro supprimé après envoi.' },
+              { icon:'🔒', title:'Conforme RGPD', text:'Aucune donnée médicale. . Numéro supprimé après envoi.' },
               { icon:'💰', title:'Sans abonnement', text:'Vous achetez des crédits SMS quand vous voulez. Aucun engagement, aucun frais fixe.' },
               { icon:'⚡', title:'5 secondes par patient', text:'Votre secrétaire saisit un numéro et c\'est tout. Pas de formation, pas de logiciel complexe.' },
             ].map(f => (
@@ -322,7 +322,7 @@ export default function LandingPage() {
         </div>
         <div className={styles.footerBottom}>
           <span>© 2026 Reputo · France</span>
-          <span>Conforme RGPD · Hébergé en France · ISO 27001</span>
+          <span>Conforme RGPD · ISO 27001</span>
         </div>
       </footer>
 
