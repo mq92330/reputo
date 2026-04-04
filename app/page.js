@@ -322,7 +322,7 @@ export default function LandingPage() {
         </div>
         <div className={styles.footerBottom}>
           <span>© 2026 Reputo · France</span>
-          <span>Conforme RGPD · ISO 27001</span>
+          <span>Conforme RGPD</span>
         </div>
       </footer>
 
