@@ -59,6 +59,7 @@ export default function DashboardPage() {
         patient_first_name: name,
         patient_last_name: lastName,
         patient_civility: civility,
+        user_id: (await supabase.auth.getUser()).data.user?.id,
       }),
     });
     const data = await res.json();
