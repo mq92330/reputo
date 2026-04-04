@@ -6,8 +6,10 @@ import { randomUUID } from 'crypto';
 export async function POST(request) {
   try {
     const supabase = createClient();
-    const { data: { user } } = await supabase.auth.getUser();
-    if (!user) return NextResponse.json({ ok: false, error: 'Non autorisé' }, { status: 401 });
+    const authHeader = request.headers.get('authorization');
+    const token = authHeader?.replace('Bearer ', '');
+    const { data: { user } } = await supabase.auth.getUser(token);
+if (!user) return NextResponse.json({ ok: false, error: 'Non autorisé' }, { status: 401 });
 
     const { data: profile } = await supabase
       .from('profiles')
