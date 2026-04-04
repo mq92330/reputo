@@ -13,7 +13,7 @@ export default function DashboardLayout({ children }) {
   useEffect(() => {
     async function load() {
       const { data: { user } } = await supabase.auth.getUser();
-      if (!user) return;
+      if (!user) { router.push('/login'); return; }
       const { data } = await supabase.from('profiles').select('cabinet_name, credits').eq('id', user.id).single();
       setProfile(data);
     }
