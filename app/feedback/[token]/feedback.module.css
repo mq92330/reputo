@@ -1,0 +1,148 @@
+.page {
+  min-height: 100vh;
+  background: var(--surface);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 24px;
+}
+
+.card {
+  background: var(--bg);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-xl);
+  padding: 40px 36px;
+  width: 100%;
+  max-width: 420px;
+  box-shadow: var(--shadow-md);
+  text-align: center;
+}
+
+.reputoLogo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 7px;
+  font-family: var(--font-display);
+  font-size: 15px;
+  font-weight: 700;
+  color: var(--muted);
+  margin-bottom: 28px;
+}
+
+.reputoMark {
+  width: 22px;
+  height: 22px;
+  background: var(--blue);
+  color: #fff;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 11px;
+  font-weight: 800;
+}
+
+.cabinetName {
+  font-size: 12px;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  color: var(--blue);
+  margin-bottom: 8px;
+}
+
+.question {
+  font-family: var(--font-display);
+  font-size: 22px;
+  font-weight: 700;
+  letter-spacing: -0.3px;
+  margin-bottom: 6px;
+}
+
+.sub { font-size: 13px; color: var(--muted); margin-bottom: 28px; }
+
+.stars {
+  display: flex;
+  justify-content: center;
+  gap: 8px;
+}
+
+.star {
+  background: transparent;
+  border: none;
+  font-size: 42px;
+  color: var(--border2);
+  padding: 0 4px;
+  transition: color 0.1s, transform 0.1s;
+  line-height: 1;
+}
+
+.starActive { color: #F59E0B; }
+.star:hover { transform: scale(1.15); }
+
+.starLabel {
+  font-size: 13px;
+  color: var(--muted);
+  margin-top: 8px;
+  min-height: 20px;
+}
+
+/* RESULTS */
+.resultGood, .resultBadHeader {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 8px;
+}
+
+.resultIcon { font-size: 48px; margin-bottom: 8px; }
+
+.resultGood h2, .resultBadHeader h2 {
+  font-family: var(--font-display);
+  font-size: 22px;
+  font-weight: 700;
+}
+
+.resultGood p, .resultBadHeader p {
+  font-size: 14px;
+  color: var(--muted);
+  line-height: 1.6;
+}
+
+.redirectBar {
+  width: 100%;
+  height: 3px;
+  background: var(--border);
+  border-radius: 100px;
+  margin-top: 20px;
+  overflow: hidden;
+  position: relative;
+}
+
+.redirectBar::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  background: var(--green);
+  animation: fill 1.4s ease-in-out forwards;
+}
+
+@keyframes fill {
+  from { width: 0%; }
+  to { width: 100%; }
+}
+
+.loading, .errorMsg {
+  font-size: 14px;
+  color: var(--muted);
+  padding: 40px 0;
+}
+
+.poweredBy {
+  margin-top: 28px;
+  font-size: 11px;
+  color: var(--muted2);
+}
