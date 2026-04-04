@@ -38,7 +38,7 @@
 .varsRow { display:flex; flex-wrap:wrap; gap:6px; }
 .varChip { background:var(--surface2); border:1px solid var(--border); padding:2px 8px; border-radius:4px; font-size:11px; color:var(--blue); font-family:monospace; }
 
-textarea { resize:vertical; min-height:90px; line-height:1.6; }
+.textarea { resize:vertical; min-height:90px; line-height:1.6; }
 .charCount { display:flex; align-items:center; gap:10px; font-size:11px; margin-top:4px; }
 .charWarning { background:#FEF2F2; border:0.5px solid #FCA5A5; color:#DC2626; padding:6px 10px; border-radius:var(--radius); font-size:11px; margin-top:4px; line-height:1.4; }
 .resetBtn { background:transparent; border:none; font-size:11px; color:var(--blue); cursor:pointer; padding:0; margin-left:auto; }
