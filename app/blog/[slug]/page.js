@@ -43,8 +43,9 @@ export function generateStaticParams() {
   return Object.keys(articles).map(slug => ({ slug }));
 }
 
-export function generateMetadata({ params }) {
-  const a = articles[params.slug];
+export async function generateMetadata({ params }) {
+  const { slug } = await params;
+  const a = articles[slug];
   if (!a) return {};
   return {
     title: `${a.title} | Reputo`,
@@ -52,8 +53,9 @@ export function generateMetadata({ params }) {
   };
 }
 
-export default function ArticlePage({ params }) {
-  const a = articles[params.slug];
+export default async function ArticlePage({ params }) {
+  const { slug } = await params;
+  const a = articles[slug];
   if (!a) return <div style={{padding:'80px', textAlign:'center'}}>Article non trouvé</div>;
 
   return (
