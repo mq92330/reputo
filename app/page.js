@@ -49,7 +49,7 @@ export default function LandingPage() {
               Voir comment ça marche
             </a>
           </div>
-          <p className={styles.heroNote}>Aucun abonnement · Payez uniquement les SMS envoyés · 20 SMS offerts</p>
+          <p className={styles.heroNote}>Aucun abonnement · Payez uniquement les SMS envoyés · 5 SMS offerts</p>
         </div>
 
         {/* FLOW ILLUSTRATION */}
@@ -226,7 +226,7 @@ export default function LandingPage() {
                 Commencer →
               </a>
               <div className={styles.pricingFeatures}>
-                {['Tableau de bord complet','Filtre étoiles configurable','Feedback privé inclus','20 SMS de test offerts'].map(f => (
+                {['Tableau de bord complet','Filtre étoiles configurable','Feedback privé inclus','5 SMS de test offerts'].map(f => (
                   <div key={f} className={styles.pricingFeat}><span className={styles.pricingCheck}>✓</span>{f}</div>
                 ))}
               </div>
@@ -285,7 +285,7 @@ export default function LandingPage() {
           </h2>
           <p style={{color:'var(--muted)', fontSize:'16px', marginBottom:'32px'}}>
             Rejoignez les professionnels de santé qui utilisent Reputo.<br/>
-            20 SMS offerts à l'inscription, sans engagement.
+            5 SMS offerts à l'inscription, sans engagement.
           </p>
           <div style={{display:'flex', gap:'12px', justifyContent:'center', flexWrap:'wrap'}}>
             <a href={CHECKOUT_STARTER} className="btn-primary" style={{fontSize:'15px', padding:'13px 28px'}}>Commencer gratuitement →</a>

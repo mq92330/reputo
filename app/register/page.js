@@ -31,7 +31,7 @@ export default function RegisterPage() {
         id: data.user.id,
         cabinet_name: cabinetName,
         star_threshold: 4,
-        credits: 20,
+        credits: 5,
         sms_template: `Bonjour{PRENOM}, merci pour votre visite. Votre avis nous aide. Notez votre expérience : {FEEDBACK_URL}`,
       });
     }
@@ -44,7 +44,7 @@ export default function RegisterPage() {
       <a href="/" className={styles.logo}><span className={styles.logoMark}>R</span>Reputo</a>
       <div className={styles.card}>
         <h1 className={styles.title}>Créer votre compte</h1>
-        <p className={styles.sub}>20 SMS offerts · Aucun engagement</p>
+        <p className={styles.sub}>5 SMS offerts · Aucun engagement</p>
         <form onSubmit={handleRegister} className={styles.form}>
           <div className={styles.field}><label>Nom du cabinet</label><input type="text" value={cabinetName} onChange={e => setCabinetName(e.target.value)} placeholder="Cabinet Médical Martin" required /></div>
           <div className={styles.field}><label>Email</label><input type="email" value={email} onChange={e => setEmail(e.target.value)} placeholder="votre@email.com" required /></div>

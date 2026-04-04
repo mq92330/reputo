@@ -13,7 +13,7 @@ create table profiles (
   profession text default 'medecin',
   praticien_name text default '',
   star_threshold integer default 4 check (star_threshold between 1 and 5),
-  credits integer default 20, -- 20 SMS offerts à l'inscription
+  credits integer default 5, -- 5 SMS offerts à l'inscription
   subscription_status text default 'active',
   created_at timestamptz default now()
 );
