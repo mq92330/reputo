@@ -222,8 +222,8 @@
 
 .stepIcon { font-size: 28px; margin-bottom: 12px; display: block; }
 
-.step h3 { font-size: 15px; font-weight: 600; margin-bottom: 8px; }
-.step p { font-size: 13px; color: var(--muted); line-height: 1.6; }
+.step .h3 { font-size: 15px; font-weight: 600; margin-bottom: 8px; }
+.step .p { font-size: 13px; color: var(--muted); line-height: 1.6; }
 
 /* FILTER SECTION */
 .filterSection { padding: 80px 48px; }
@@ -329,8 +329,8 @@
 .feature:hover { box-shadow: var(--shadow-md); }
 
 .featureIcon { font-size: 24px; margin-bottom: 12px; display: block; }
-.feature h3 { font-size: 14px; font-weight: 600; margin-bottom: 6px; }
-.feature p { font-size: 13px; color: var(--muted); line-height: 1.6; }
+.feature .h3 { font-size: 14px; font-weight: 600; margin-bottom: 6px; }
+.feature .p { font-size: 13px; color: var(--muted); line-height: 1.6; }
 
 /* PRICING */
 .pricing {
@@ -387,8 +387,8 @@
   border-radius: var(--radius-lg);
   padding: 20px 24px;
 }
-.faq h3 { font-size: 14px; font-weight: 600; margin-bottom: 8px; }
-.faq p { font-size: 13px; color: var(--muted); line-height: 1.6; }
+.faq .h3 { font-size: 14px; font-weight: 600; margin-bottom: 8px; }
+.faq .p { font-size: 13px; color: var(--muted); line-height: 1.6; }
 
 /* CTA */
 .ctaSection {
@@ -414,7 +414,7 @@
 
 .footerLinks { display: flex; gap: 48px; }
 .footerLinks > div { display: flex; flex-direction: column; gap: 10px; }
-.footerLinks a { font-size: 13px; color: var(--muted); }
+.footerLinks .a { font-size: 13px; color: var(--muted); }
 .footerLinks a:hover { color: var(--text); }
 .footerLinkTitle { font-size: 12px; font-weight: 600; color: var(--text); margin-bottom: 2px; }
 

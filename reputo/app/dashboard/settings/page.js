@@ -92,7 +92,7 @@ export default function SettingsPage() {
               <span style={{color:'#166534'}}>→ Redirigé vers Google Reviews</span>
             </div>
             {form.star_threshold > 1 && (
-              <div className={styles.thresholdRow} style={{background:'#FFFBEB'}}>
+              <div className={styles.thresholdRow} style={{background:var(--amber-dim)}}>
                 <span style={{color:'#78350F', fontWeight:600}}>1 à {form.star_threshold - 1} étoile{form.star_threshold > 2 ? 's' : ''}</span>
                 <span style={{color:'#78350F'}}>→ Feedback privé envoyé à vous</span>
               </div>
@@ -109,7 +109,6 @@ export default function SettingsPage() {
           <div className={styles.field}>
             <label>Texte du SMS</label>
             <textarea
-              className={styles.textarea}
               value={form.sms_template}
               onChange={e => setForm({...form, sms_template:e.target.value})}
               rows={4}

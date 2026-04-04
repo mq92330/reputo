@@ -98,13 +98,13 @@
 
 .resultIcon { font-size: 48px; margin-bottom: 8px; }
 
-.resultGood h2, .resultBadHeader h2 {
+.resultGood .h2, .resultBadHeader .h2 {
   font-family: var(--font-display);
   font-size: 22px;
   font-weight: 700;
 }
 
-.resultGood p, .resultBadHeader p {
+.resultGood .p, .resultBadHeader .p {
   font-size: 14px;
   color: var(--muted);
   line-height: 1.6;

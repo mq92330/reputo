@@ -161,23 +161,23 @@ export default function LandingPage() {
           <h2 className={styles.sectionTitle}>Tous les professionnels de santé libéraux</h2>
           <div className={styles.professions}>
             {[
-              { icon:'🦷', label:'Dentistes' },
-              { icon:'👨‍⚕️', label:'Médecins généralistes' },
-              { icon:'💪', label:'Kinésithérapeutes' },
-              { icon:'🤲', label:'Ostéopathes' },
-              { icon:'💉', label:'Infirmiers libéraux' },
-              { icon:'👁️', label:'Ophtalmologues' },
-              { icon:'👂', label:'ORL' },
-              { icon:'🧠', label:'Psychologues' },
-              { icon:'🦴', label:'Chirurgiens' },
-              { icon:'💊', label:'Pharmaciens' },
-              { icon:'👓', label:'Opticiens' },
+              { icon:'🦷', label:'Dentistes', href:'/blog/reputo-dentiste' },
+              { icon:'👨‍⚕️', label:'Médecins généralistes', href:'/blog/reputo-medecin-generaliste' },
+              { icon:'💪', label:'Kinésithérapeutes', href:'/blog/reputo-kinesitherapeute' },
+              { icon:'🤲', label:'Ostéopathes', href:'/blog/reputo-osteopathe' },
+              { icon:'💉', label:'Infirmiers libéraux', href:'/blog/reputo-infirmier-liberal' },
+              { icon:'👁️', label:'Ophtalmologues', href:'/blog/reputo-ophtalmo' },
+              { icon:'👂', label:'ORL', href:'/blog/reputo-orl' },
+              { icon:'🧠', label:'Psychologues', href:'/blog/reputo-psychologue' },
+              { icon:'🦴', label:'Chirurgiens', href:'/blog' },
+              { icon:'💊', label:'Pharmaciens', href:'/blog/reputo-pharmacien' },
+              { icon:'👓', label:'Opticiens', href:'/blog/reputo-opticien' },
               { icon:'✚', label:'Et tous les autres' },
             ].map(p => (
-              <div key={p.label} className={styles.profession}>
+              <a key={p.label} href={p.href} className={styles.profession} style={{textDecoration:'none'}}>
                 <span style={{fontSize:'24px'}}>{p.icon}</span>
                 <span>{p.label}</span>
-              </div>
+              </a>
             ))}
           </div>
         </div>
@@ -222,7 +222,7 @@ export default function LandingPage() {
               <div className={styles.pricingPrice}><span className={styles.pricingCur}>€</span>9<span className={styles.pricingPer}> HT</span></div>
               <div className={styles.pricingCredits}>50 crédits SMS</div>
               <div className={styles.pricingPerSms}>0,18 € / SMS</div>
-              <a href={CHECKOUT_STARTER} className="btn-primary" style={{width:'100%', textAlign:'center', marginTop:'20px', padding:'11px', background:'#1E3A8A'}}>
+              <a href={CHECKOUT_STARTER} className="btn-ghost" style={{width:'100%', textAlign:'center', marginTop:'20px', padding:'11px'}}>
                 Commencer →
               </a>
               <div className={styles.pricingFeatures}>
@@ -250,7 +250,7 @@ export default function LandingPage() {
             </div>
           </div>
           <p style={{textAlign:'center', color:'var(--muted)', fontSize:'13px', marginTop:'24px'}}>
-            Besoin de plus de volume ? <a href="mailto:contact@reputo.fr" style={{color:'var(--blue)'}}>Contactez-nous</a> pour un tarif sur mesure.
+            Besoin de plus de volume ? <a href="/contact" style={{color:'var(--blue)'}}>Contactez-nous</a> pour un tarif sur mesure.
           </p>
         </div>
       </section>
@@ -289,7 +289,7 @@ export default function LandingPage() {
           </p>
           <div style={{display:'flex', gap:'12px', justifyContent:'center', flexWrap:'wrap'}}>
             <a href={CHECKOUT_STARTER} className="btn-primary" style={{fontSize:'15px', padding:'13px 28px'}}>Commencer gratuitement →</a>
-            <a href="mailto:contact@reputo.fr" className="btn-ghost" style={{fontSize:'15px', padding:'13px 24px'}}>Nous contacter</a>
+            <a href="/contact" className="btn-ghost" style={{fontSize:'15px', padding:'13px 24px'}}>Nous contacter</a>
           </div>
         </div>
       </section>

@@ -40,16 +40,16 @@ const articles = {
   'reputo-medecin-generaliste': {
     title: "Reputo pour médecins généralistes : cas concret",
     tag: 'Médecins', category: 'professions',
-    meta: "Découvrez comment le Dr. Martin a multiplié ses avis Google par 5 en 2 mois grâce à Reputo. Cas concret pour médecin libéral.",
+    meta: "Découvrez comment le Il a multiplié ses avis Google par 5 en 2 mois grâce à Reputo. Cas concret pour médecin libéral.",
     intro: "Un médecin généraliste reçoit en moyenne 25 patients par jour. Chaque consultation est une opportunité de renforcer sa réputation en ligne. Voici comment ça se passe concrètement.",
     casStudy: {
-      who: "Dr. Martin, médecin généraliste à Lyon, cabinet solo, 30 consultations/jour",
+      who: "Un médecin généraliste, cabinet solo, 30 consultations/jour",
       before: "3 avis Google en 4 ans d'exercice, note 3,8/5",
       after: "67 avis en 2 mois, note 4,7/5, +40% de nouveaux patients",
     },
     content: [
       { h2: "Le problème du Dr. Martin", p: "Comme la plupart des médecins, le Dr. Martin n'osait pas demander d'avis à ses patients. Ses rares avis étaient soit neutres, soit négatifs — laissés par les seuls patients qui prenaient le temps d'en écrire. Son cabinet n'apparaissait pas dans les premiers résultats Google quand un nouveau patient cherchait un médecin dans son quartier." },
-      { h2: "La mise en place (5 minutes)", p: "Le Dr. Martin a créé son compte Reputo un mardi matin avant ses consultations. Il a renseigné le lien de sa fiche Google My Business, réglé le seuil à 4 étoiles, et personnalisé son SMS : \"Bonjour {PRENOM}, merci pour votre visite. Comment s'est passée votre consultation ? {FEEDBACK_URL} — Dr. Martin\". Sa secrétaire a envoyé le premier SMS à 9h15." },
+      { h2: "La mise en place (5 minutes)", p: "Ce praticien a créé son compte Reputo un mardi matin avant ses consultations. Il a renseigné le lien de sa fiche Google My Business, réglé le seuil à 4 étoiles, et personnalisé son SMS : \"Bonjour {PRENOM}, merci pour votre visite. Comment s'est passée votre consultation ? {FEEDBACK_URL} — Dr. Martin\". Sa secrétaire a envoyé le premier SMS à 9h15." },
       { h2: "Le flow patient", p: "Après chaque consultation, la secrétaire saisit le prénom et le numéro du patient — 5 secondes. Le patient reçoit le SMS dans la minute. Il clique, voit les 5 étoiles, choisit sa note. Les patients satisfaits (≥ 4★) atterrissent sur Google et laissent leur avis. Ceux qui avaient des réserves envoient un message privé que le Dr. Martin lit le soir et traite directement." },
       { h2: "Les résultats après 2 mois", p: "67 avis Google collectés (vs 3 en 4 ans). Note passée de 3,8 à 4,7/5. Le cabinet est remonté en première position sur \"médecin généraliste Lyon 7e\" sur Google Maps. 8 à 12 nouveaux patients par semaine mentionnent les avis Google comme raison de leur choix." },
     ]
@@ -60,14 +60,14 @@ const articles = {
     meta: "Comment un cabinet dentaire a collecté 120 avis positifs en 3 mois avec Reputo, sans violer le secret médical.",
     intro: "Les dentistes font face à un défi unique : ils ne peuvent pas répondre publiquement aux avis négatifs. Reputo a été pensé précisément pour ça.",
     casStudy: {
-      who: "Cabinet Dentaire Belleville, Paris 11e, 2 praticiens, 40 consultations/jour",
+      who: "Un cabinet dentaire parisien, 2 praticiens, 40 consultations/jour",
       before: "12 avis Google, note 3,5/5, plusieurs avis négatifs sans réponse possible",
       after: "132 avis en 3 mois, note 4,8/5, zéro avis négatif public depuis le lancement",
     },
     content: [
-      { h2: "Le problème particulier des dentistes", p: "Le Cabinet Dentaire Belleville avait un vrai problème : 3 avis négatifs sans possibilité de répondre (secret médical). Ces avis tiraient leur note vers le bas et décourageaient les nouveaux patients. Les praticiens ne savaient pas comment améliorer la situation légalement." },
+      { h2: "Le problème particulier des dentistes", p: "Ce cabinet avait un vrai problème : 3 avis négatifs sans possibilité de répondre (secret médical). Ces avis tiraient leur note vers le bas et décourageaient les nouveaux patients. Les praticiens ne savaient pas comment améliorer la situation légalement." },
       { h2: "La configuration pour un cabinet dentaire", p: "L'assistante du cabinet a créé le compte Reputo en 4 minutes. Seuil réglé à 4 étoiles. SMS configuré avec le nom du cabinet. Le message envoyé le soir même après la dernière consultation de la journée. En 48h, les premiers avis Google arrivaient." },
-      { h2: "Comment les avis négatifs ont été gérés", p: "Sur 132 notes reçues, 11 étaient en dessous du seuil de 4 étoiles. Ces patients ont envoyé leur retour en privé via Reputo. Le Dr. Belleville a répondu personnellement à chacun, a résolu les problèmes (délai d'attente, explication des honoraires). Résultat : aucun de ces 11 patients n'a posté d'avis négatif public. 3 sont même revenus et ont laissé un avis positif après." },
+      { h2: "Comment les avis négatifs ont été gérés", p: "Sur 132 notes reçues, 11 étaient en dessous du seuil de 4 étoiles. Ces patients ont envoyé leur retour en privé via Reputo. Le Le praticien a répondu personnellement à chacun, a résolu les problèmes (délai d'attente, explication des honoraires). Résultat : aucun de ces 11 patients n'a posté d'avis négatif public. 3 sont même revenus et ont laissé un avis positif après." },
       { h2: "L'impact sur le cabinet", p: "132 avis à 4,8/5 ont propulsé le cabinet en tête des résultats Google Maps pour \"dentiste Paris 11\". Le taux d'occupation est passé de 78% à 94% en 3 mois. La liste d'attente pour les nouveaux patients est maintenant de 3 semaines." },
     ]
   },
@@ -77,7 +77,7 @@ const articles = {
     meta: "Comment un cabinet de kinésithérapie a doublé ses nouveaux patients grâce aux avis Google avec Reputo.",
     intro: "Le kiné libéral est dans une situation de concurrence directe avec ses collègues du quartier. Les avis Google sont souvent le facteur décisif pour un patient qui doit choisir.",
     casStudy: {
-      who: "Cabinet Kiné Sport Bordeaux, 1 praticien, 20 séances/jour",
+      who: "Un cabinet de kinésithérapie à Bordeaux, 1 praticien, 20 séances/jour",
       before: "7 avis Google, note 4,1/5, pas de présence notable sur Google Maps",
       after: "89 avis en 2,5 mois, note 4,9/5, cabinet complet avec liste d'attente",
     },
@@ -94,13 +94,13 @@ const articles = {
     meta: "L'ostéopathie n'est pas remboursée — les avis Google sont encore plus décisifs. Comment Reputo aide les ostéos à se démarquer.",
     intro: "L'ostéopathie est une profession où le bouche-à-oreille digital est crucial. Les patients ne reviennent que si leur première séance les a convaincus — et ils lisent les avis avant de prendre rendez-vous.",
     casStudy: {
-      who: "Margot L., ostéopathe à Paris 15e, cabinet solo, 6 à 8 consultations/jour",
+      who: "Une ostéopathe parisienne, cabinet solo, 6 à 8 consultations/jour",
       before: "2 avis Google après 3 ans d'exercice, note 5/5 mais invisible sur Google",
       after: "54 avis en 6 semaines, note 4,9/5, +70% de nouveaux patients",
     },
     content: [
-      { h2: "Le paradoxe de l'ostéopathe reconnu mais invisible", p: "Margot avait une clientèle fidèle et une excellente réputation dans son réseau. Mais elle était invisible sur Google. Ses 2 avis existants (laissés spontanément) ne suffisaient pas pour apparaître dans les résultats locaux. Elle perdait des nouveaux patients au profit de collègues moins expérimentés mais mieux référencés." },
-      { h2: "Spécificité de l'ostéopathie : le SMS post-séance", p: "Margot a configuré Reputo pour envoyer le SMS 2 heures après la séance — quand le patient ressent déjà les premiers effets positifs du traitement. Ce timing augmente significativement la probabilité d'une note positive. Son message : \"Bonjour {PRENOM}, comment vous sentez-vous après votre séance ? Votre retour m'aide à m'améliorer : {FEEDBACK_URL} — Margot\"" },
+      { h2: "Le paradoxe de l'ostéopathe reconnu mais invisible", p: "Cette praticienne avait une clientèle fidèle et une excellente réputation dans son réseau. Mais elle était invisible sur Google. Ses 2 avis existants (laissés spontanément) ne suffisaient pas pour apparaître dans les résultats locaux. Elle perdait des nouveaux patients au profit de collègues moins expérimentés mais mieux référencés." },
+      { h2: "Spécificité de l'ostéopathie : le SMS post-séance", p: "Elle a configuré Reputo pour envoyer le SMS 2 heures après la séance — quand le patient ressent déjà les premiers effets positifs du traitement. Ce timing augmente significativement la probabilité d'une note positive. Son message : \"Bonjour {PRENOM}, comment vous sentez-vous après votre séance ? Votre retour m'aide à m'améliorer : {FEEDBACK_URL} — Margot\"" },
       { h2: "Ce que les patients écrivent", p: "Les avis collectés sont remarquablement détaillés et authentiques : ils décrivent le problème initial, la prise en charge, les résultats. Ces avis longs et spécifiques ont un impact SEO supplémentaire sur Google. En plus d'améliorer la note, ils positionnent le cabinet sur des requêtes spécifiques comme \"ostéopathe dos Paris 15\"." },
       { h2: "L'impact financier direct", p: "À 70€ la séance et 70% de nouveaux patients en plus, Reputo génère environ 1 500 à 2 000€ de chiffre d'affaires supplémentaire par mois pour Margot. Le coût mensuel de Reputo : 9 à 19€." },
     ]
@@ -111,13 +111,13 @@ const articles = {
     meta: "Les infirmiers libéraux ont besoin d'avis Google pour développer leur patientèle. Comment Reputo s'adapte à leur quotidien.",
     intro: "L'infirmier libéral intervient souvent à domicile, voit des dizaines de patients par jour, et n'a pas de secrétaire. Reputo est conçu pour fonctionner en 5 secondes, même en mobilité.",
     casStudy: {
-      who: "Sophie R., IDEL en Haute-Garonne, 30 patients/jour dont 80% à domicile",
+      who: "Une infirmière libérale, 30 patients/jour dont 80% à domicile",
       before: "0 avis Google — cabinet trop récent pour être visible",
       after: "41 avis en 6 semaines, note 5/5, liste d'attente ouverte",
     },
     content: [
-      { h2: "La contrainte du métier : pas de secrétaire, pas de bureau", p: "Sophie n'a pas de cabinet fixe. Elle enchaîne les visites à domicile de 7h à 13h, parfois jusqu'à 30 patients. Pas de secrétaire pour saisir les numéros. Elle avait besoin d'un outil utilisable depuis son téléphone, entre deux visites, en quelques secondes." },
-      { h2: "L'adaptation du workflow", p: "Sophie utilise Reputo directement depuis son smartphone. Après chaque série de soins (pansements, injections post-opératoires), elle saisit le numéro du patient depuis l'application mobile. 5 secondes. Le patient reçoit le SMS dans l'heure. Elle a réglé un message très chaleureux : \"Bonjour {PRENOM}, c'était un plaisir de vous accompagner. Comment s'est passé votre suivi ? {FEEDBACK_URL} — Sophie\"" },
+      { h2: "La contrainte du métier : pas de secrétaire, pas de bureau", p: "Elle n'a pas de cabinet fixe. Elle enchaîne les visites à domicile de 7h à 13h, parfois jusqu'à 30 patients. Pas de secrétaire pour saisir les numéros. Elle avait besoin d'un outil utilisable depuis son téléphone, entre deux visites, en quelques secondes." },
+      { h2: "L'adaptation du workflow", p: "Elle utilise Reputo directement depuis son smartphone. Après chaque série de soins (pansements, injections post-opératoires), elle saisit le numéro du patient depuis l'application mobile. 5 secondes. Le patient reçoit le SMS dans l'heure. Elle a réglé un message très chaleureux : \"Bonjour {PRENOM}, c'était un plaisir de vous accompagner. Comment s'est passé votre suivi ? {FEEDBACK_URL} — Sophie\"" },
       { h2: "Les spécificités des avis pour une IDEL", p: "Les patients d'une infirmière libérale sont souvent des personnes âgées ou convalescentes. Leurs avis Google sont exceptionnellement positifs et émouvants — ils décrivent la qualité de l'accompagnement humain, la ponctualité, la douceur. Ces avis ont convaincu de nombreuses familles de choisir Sophie pour leur proche." },
       { h2: "Le résultat", p: "En 6 semaines : 41 avis, tous 5 étoiles. Sophie est la seule IDEL de son secteur avec autant d'avis, ce qui lui vaut d'apparaître en premier sur Google Maps. Sa liste d'attente est ouverte pour la première fois depuis son installation." },
     ]
@@ -128,14 +128,14 @@ const articles = {
     meta: "Comment un cabinet d'ophtalmologie a transformé ses longs délais d'attente en avantage avec les avis Google.",
     intro: "En ophtalmologie, les délais d'attente sont longs (souvent 3 à 6 mois). Cela génère des frustrations — et des risques d'avis négatifs. Reputo permet de capter les avis des patients satisfaits et de gérer les mécontents en privé.",
     casStudy: {
-      who: "Dr. Chen, ophtalmologue à Nantes, cabinet de groupe, 35 consultations/jour",
+      who: "Un ophtalmologue libéral, cabinet de groupe, 35 consultations/jour",
       before: "18 avis, note 3,2/5 (principalement liés aux délais d'attente pour RDV)",
       after: "95 avis en 2 mois, note 4,5/5",
     },
     content: [
-      { h2: "Le problème des avis liés aux délais", p: "Les avis négatifs du Dr. Chen ne portaient pas sur la qualité des soins — unanimement saluée — mais sur les délais pour obtenir un rendez-vous. Ces avis étaient injustes mais indélogeables. La note 3,2/5 nuisait à l'image du cabinet alors que les patients consultés étaient très satisfaits." },
-      { h2: "La stratégie de rééquilibrage", p: "En utilisant Reputo systématiquement après chaque consultation, le Dr. Chen a collecté en 2 mois autant d'avis que pendant les 5 années précédentes. Les patients satisfaits par la consultation — la grande majorité — ont massivement noté 5 étoiles. Les rares mécontents (souvent encore frustrés par le délai initial) ont envoyé leur retour en privé." },
-      { h2: "Comment ont été gérés les retours négatifs", p: "12 patients sur 95 ont laissé une note de 3 étoiles ou moins. Dans 9 cas sur 12, le motif était le délai d'attente pour le premier rendez-vous — pas la consultation elle-même. Le Dr. Chen a répondu personnellement, a expliqué la situation et proposé d'être rappelé en priorité pour le prochain contrôle. 8 de ces patients ont re-noté positivement." },
+      { h2: "Le problème des avis liés aux délais", p: "Les avis négatifs du Ce praticien ne portaient pas sur la qualité des soins — unanimement saluée — mais sur les délais pour obtenir un rendez-vous. Ces avis étaient injustes mais indélogeables. La note 3,2/5 nuisait à l'image du cabinet alors que les patients consultés étaient très satisfaits." },
+      { h2: "La stratégie de rééquilibrage", p: "En utilisant Reputo systématiquement après chaque consultation, le Ce praticien a collecté en 2 mois autant d'avis que pendant les 5 années précédentes. Les patients satisfaits par la consultation — la grande majorité — ont massivement noté 5 étoiles. Les rares mécontents (souvent encore frustrés par le délai initial) ont envoyé leur retour en privé." },
+      { h2: "Comment ont été gérés les retours négatifs", p: "12 patients sur 95 ont laissé une note de 3 étoiles ou moins. Dans 9 cas sur 12, le motif était le délai d'attente pour le premier rendez-vous — pas la consultation elle-même. Le Ce praticien a répondu personnellement, a expliqué la situation et proposé d'être rappelé en priorité pour le prochain contrôle. 8 de ces patients ont re-noté positivement." },
       { h2: "Le résultat", p: "En 2 mois, la note est passée de 3,2 à 4,5/5 avec 95 avis. Le cabinet est maintenant bien positionné sur Google Maps et les nouveaux patients s'inscrivent sur liste d'attente en comprenant mieux le contexte." },
     ]
   },
@@ -145,15 +145,15 @@ const articles = {
     meta: "Comment un psychologue libéral peut développer sa réputation en ligne tout en respectant la confidentialité de ses patients.",
     intro: "La psychologie est une discipline où la confidentialité est absolue. Pourtant, une présence en ligne solide est essentielle pour développer sa patientèle. Reputo permet de concilier les deux.",
     casStudy: {
-      who: "Thomas B., psychologue clinicien à Paris, cabinet individuel, 8 consultations/jour",
+      who: "Un psychologue clinicien parisien, cabinet individuel, 8 consultations/jour",
       before: "Aucune présence Google, acquisition uniquement par bouche-à-oreille",
       after: "38 avis en 3 mois, note 4,9/5, nouvelles demandes augmentées de 60%",
     },
     content: [
-      { h2: "La particularité de la confidentialité en psychologie", p: "Thomas avait une crainte légitime : ses patients pourraient ne pas souhaiter qu'on sache qu'ils consultent un psychologue. C'est pourquoi il a choisi la formule de salutation générique dans Reputo (\"Bonjour,\" sans prénom) et un SMS neutre. Les patients choisissent librement de laisser ou non un avis." },
-      { h2: "Le contenu des avis — et ce qu'on n'y trouve pas", p: "Les avis laissés par ses patients ne mentionnent jamais de motif de consultation. Ils parlent de l'accueil, de l'écoute, de la qualité de la relation thérapeutique, du cabinet agréable. Ces avis sont à la fois utiles pour Google et respectueux de la confidentialité. Thomas les relit et les trouve souvent émouvants." },
-      { h2: "L'impact sur les nouvelles demandes", p: "Avant Reputo, Thomas dépendait exclusivement du bouche-à-oreille et des prescriptions de médecins. En 3 mois, il a reçu 38 avis et ses nouvelles demandes de consultation ont augmenté de 60%. Des patients qui ne l'auraient jamais connu l'ont trouvé via Google Maps." },
-      { h2: "La gestion du temps", p: "Thomas utilise Reputo après ses 8 consultations journalières. Sa secrétaire envoie les SMS en fin de journée uniquement aux patients qui ont explicitement consenti à être recontactés (consentement intégré dans ses formulaires d'accueil). Cela représente environ 5 à 6 SMS par jour — soit 30 secondes de travail." },
+      { h2: "La particularité de la confidentialité en psychologie", p: "Ce praticien avait une crainte légitime : ses patients pourraient ne pas souhaiter qu'on sache qu'ils consultent un psychologue. C'est pourquoi il a choisi la formule de salutation générique dans Reputo (\"Bonjour,\" sans prénom) et un SMS neutre. Les patients choisissent librement de laisser ou non un avis." },
+      { h2: "Le contenu des avis — et ce qu'on n'y trouve pas", p: "Les avis laissés par ses patients ne mentionnent jamais de motif de consultation. Ils parlent de l'accueil, de l'écoute, de la qualité de la relation thérapeutique, du cabinet agréable. Ces avis sont à la fois utiles pour Google et respectueux de la confidentialité. Il les relit et les trouve souvent émouvants." },
+      { h2: "L'impact sur les nouvelles demandes", p: "Avant Reputo, Il dépendait exclusivement du bouche-à-oreille et des prescriptions de médecins. En 3 mois, il a reçu 38 avis et ses nouvelles demandes de consultation ont augmenté de 60%. Des patients qui ne l'auraient jamais connu l'ont trouvé via Google Maps." },
+      { h2: "La gestion du temps", p: "Il utilise Reputo après ses 8 consultations journalières. Sa secrétaire envoie les SMS en fin de journée uniquement aux patients qui ont explicitement consenti à être recontactés (consentement intégré dans ses formulaires d'accueil). Cela représente environ 5 à 6 SMS par jour — soit 30 secondes de travail." },
     ]
   },
   'reputo-orl': {
@@ -162,15 +162,15 @@ const articles = {
     meta: "Comment un cabinet ORL a utilisé Reputo pour améliorer sa visibilité Google et attirer plus de nouveaux patients.",
     intro: "L'ORL libéral reçoit des patients pour des actes variés (consultations, audiométrie, pose d'aérateurs...). La qualité perçue est souvent excellente — mais rarement exprimée en ligne sans un déclencheur.",
     casStudy: {
-      who: "Dr. Leroy, ORL à Bordeaux, cabinet solo, 25 consultations/jour",
+      who: "Un ORL libéral, cabinet solo, 25 consultations/jour",
       before: "9 avis Google, note 4,3/5",
       after: "78 avis en 2 mois, note 4,8/5, +55% de nouveaux patients",
     },
     content: [
       { h2: "La satisfaction silencieuse des patients ORL", p: "Les patients de Dr. Leroy étaient très satisfaits — mais ne pensaient pas spontanément à laisser un avis. La consultation ORL est souvent vécue comme un acte technique efficace, pas comme une expérience mémorable. Sans déclencheur, les patients oublient simplement d'écrire." },
-      { h2: "Le déclencheur au bon moment", p: "Reputo envoie le SMS dans l'heure qui suit la consultation — quand le patient sort soulagé de son cabinet, son problème résolu. C'est le moment idéal. Le Dr. Leroy a configuré un message simple : \"Bonjour {PRENOM}, j'espère que vous allez mieux suite à votre consultation. Votre avis m'aide à améliorer mon cabinet : {FEEDBACK_URL} — Dr. Leroy\"" },
+      { h2: "Le déclencheur au bon moment", p: "Reputo envoie le SMS dans l'heure qui suit la consultation — quand le patient sort soulagé de son cabinet, son problème résolu. C'est le moment idéal. Le Ce praticien a configuré un message simple : \"Bonjour {PRENOM}, j'espère que vous allez mieux suite à votre consultation. Votre avis m'aide à améliorer mon cabinet : {FEEDBACK_URL} — Dr. Leroy\"" },
       { h2: "Les résultats spécifiques à l'ORL", p: "Les avis mentionnent souvent la qualité des explications données sur les diagnostics, la rapidité des soins, et la disponibilité pour les urgences (otites, vertiges). Ces éléments spécifiques améliorent le référencement naturel du cabinet sur des requêtes comme \"ORL urgence Bordeaux\" ou \"ORL enfant Bordeaux\"." },
-      { h2: "L'impact sur le cabinet", p: "En 2 mois, 78 avis collectés, note à 4,8/5. Le cabinet est passé de la 8e à la 2e position sur Google Maps pour \"ORL Bordeaux\". Le Dr. Leroy a dû allonger ses horaires pour faire face à la demande croissante." },
+      { h2: "L'impact sur le cabinet", p: "En 2 mois, 78 avis collectés, note à 4,8/5. Le cabinet est passé de la 8e à la 2e position sur Google Maps pour \"ORL Bordeaux\". Le Ce praticien a dû allonger ses horaires pour faire face à la demande croissante." },
     ]
   },
   'reputo-pharmacien': {
@@ -179,13 +179,13 @@ const articles = {
     meta: "Comment une pharmacie indépendante a utilisé les avis Google pour résister à la concurrence des grandes enseignes.",
     intro: "La pharmacie indépendante fait face à une concurrence accrue des grandes enseignes et des pharmacies en ligne. Les avis Google sont devenus un outil de différenciation essentiel pour mettre en avant le service personnalisé.",
     casStudy: {
-      who: "Pharmacie Centrale, ville moyenne (35 000 habitants), 3 pharmaciens",
+      who: "Une pharmacie indépendante en ville moyenne (35 000 habitants), 3 pharmaciens",
       before: "15 avis, note 3,8/5, 2 grandes enseignes concurrentes mieux notées",
       after: "103 avis en 3 mois, note 4,9/5, meilleure note de la ville",
     },
     content: [
-      { h2: "La concurrence des grandes enseignes", p: "La Pharmacie Centrale était connue pour son service personnalisé et ses conseils de qualité. Mais ses concurrents directs — une grande enseigne et une pharmacie de centre commercial — avaient respectivement 180 et 220 avis sur Google. La pharmacie indépendante semblait moins légitime, malgré une qualité de service objectivement supérieure." },
-      { h2: "L'utilisation adaptée à la pharmacie", p: "Le pharmacien a intégré Reputo dans son workflow de délivrance : pour les ordonnances chroniques et les patients suivis régulièrement, l'équipe envoie un SMS après chaque renouvellement mensuel. Pour les nouvelles ordonnances complexes (oncologie, maladies chroniques), le SMS est envoyé 3 jours après pour laisser le temps au patient de constater l'efficacité du traitement." },
+      { h2: "La concurrence des grandes enseignes", p: "Cette pharmacie était connue pour son service personnalisé et ses conseils de qualité. Mais ses concurrents directs — une grande enseigne et une pharmacie de centre commercial — avaient respectivement 180 et 220 avis sur Google. La pharmacie indépendante semblait moins légitime, malgré une qualité de service objectivement supérieure." },
+      { h2: "L'utilisation adaptée à la pharmacie", p: "Le praticien a intégré Reputo dans son workflow de délivrance : pour les ordonnances chroniques et les patients suivis régulièrement, l'équipe envoie un SMS après chaque renouvellement mensuel. Pour les nouvelles ordonnances complexes (oncologie, maladies chroniques), le SMS est envoyé 3 jours après pour laisser le temps au patient de constater l'efficacité du traitement." },
       { h2: "Les avis qui font la différence", p: "Les patients de la Pharmacie Centrale décrivent dans leurs avis des choses qu'on ne trouve pas dans les grandes enseignes : \"Le pharmacien m'a appelé pour vérifier comment je tolérais mon nouveau traitement\", \"Ils ont commandé spécialement le médicament introuvable ailleurs\". Ces avis qualitatifs attirent exactement le type de patients fidèles que la pharmacie recherche." },
       { h2: "Le résultat concurrentiel", p: "En 3 mois, 103 avis et note 4,9/5 — la meilleure note de la ville, devant toutes les concurrentes. Le chiffre d'affaires a augmenté de 18% en 6 mois, principalement grâce à de nouveaux patients attirés par les avis." },
     ]
@@ -196,15 +196,15 @@ const articles = {
     meta: "Comment un opticien indépendant concurrence les grandes enseignes grâce aux avis Google avec Reputo.",
     intro: "L'opticien indépendant fait face à une concurrence féroce des grandes enseignes (Optical Center, Krys, Afflelou...) qui disposent de budgets marketing importants. Les avis Google permettent de remettre à égalité.",
     casStudy: {
-      who: "Optique du Centre, ville de 50 000 habitants, opticien indépendant",
+      who: "Un opticien indépendant en ville moyenne, opticien indépendant",
       before: "22 avis, note 4,2/5, entouré de 4 enseignes nationales",
       after: "156 avis en 4 mois, note 4,9/5, meilleure note de la ville",
     },
     content: [
-      { h2: "Le défi de l'indépendant face aux enseignes", p: "L'Optique du Centre avait une réputation locale excellente — mais invisible sur Google. Face à 4 enseignes nationales ayant des centaines d'avis, le magasin indépendant semblait peu crédible en ligne malgré 20 ans d'expertise et une clientèle fidèle." },
+      { h2: "Le défi de l'indépendant face aux enseignes", p: "Cet opticien avait une réputation locale excellente — mais invisible sur Google. Face à 4 enseignes nationales ayant des centaines d'avis, le magasin indépendant semblait peu crédible en ligne malgré 20 ans d'expertise et une clientèle fidèle." },
       { h2: "Le workflow adapté à l'optique", p: "L'opticien a configuré deux types d'envois : un SMS lors du retrait des lunettes (\"Comment vous sentez-vous avec vos nouvelles lunettes ?\") et un second 15 jours après pour les lentilles ou les verres progressifs — quand le patient a eu le temps de s'adapter. Ce double envoi produit des avis plus détaillés et plus positifs." },
       { h2: "Ce que disent les avis", p: "Les clients de l'Optique du Centre mentionnent systématiquement le temps consacré à l'essayage, l'expertise dans le choix des montures, et le suivi post-vente. Ces éléments différencient clairement l'indépendant des enseignes et répondent directement aux critères de choix des consommateurs." },
-      { h2: "Le retour sur investissement", p: "156 avis à 4,9/5 ont propulsé l'Optique du Centre en première position sur Google Maps, devant toutes les enseignes. Le patron estime que 30 à 40 nouveaux clients par mois ont choisi son magasin en raison des avis Google. À 300€ de panier moyen, cela représente 9 000 à 12 000€ de CA supplémentaire mensuel." },
+      { h2: "Le retour sur investissement", p: "156 avis à 4,9/5 ont propulsé l'Optique du Centre en première position sur Google Maps, devant toutes les enseignes. Le gérant estime que 30 à 40 nouveaux clients par mois ont choisi son magasin en raison des avis Google. À 300€ de panier moyen, cela représente 9 000 à 12 000€ de CA supplémentaire mensuel." },
     ]
   },
 };
