@@ -139,7 +139,7 @@ export default function LandingPage() {
             <div className={styles.filterRight}>
               <div className={styles.filterMockup}>
                 <div className={styles.fmTitle}>Comment s'est passée votre visite ?</div>
-                <div className={styles.fmCabinet}>Cabinet Médical Martin</div>
+                <div className={styles.fmCabinet}>Dr. Dupont</div>
                 <div className={styles.fmStars}>
                   {[1,2,3,4,5].map(s => (
                     <span key={s} className={s <= 4 ? styles.fmStarOn : styles.fmStarOff}>★</span>
@@ -193,7 +193,7 @@ export default function LandingPage() {
               { icon:'🔀', title:'Filtrage intelligent', text:'Votre seuil d\'étoiles configurable. Les patients insatisfaits ne vont jamais sur Google.' },
               { icon:'📊', title:'Tableau de bord temps réel', text:'Avis collectés, feedbacks reçus, SMS envoyés. Tout en un coup d\'oeil.' },
               { icon:'✏️', title:'SMS personnalisable', text:'Votre message, votre nom de cabinet, votre ton. Modifiable à tout moment.' },
-              { icon:'🔒', title:'Conforme RGPD', text:'Aucune donnée médicale. . Numéro supprimé après envoi.' },
+              { icon:'🔒', title:'Conforme RGPD', text:'Aucune donnée médicale collectée. Numéro supprimé après envoi.' },
               { icon:'💰', title:'Sans abonnement', text:'Vous achetez des crédits SMS quand vous voulez. Aucun engagement, aucun frais fixe.' },
               { icon:'⚡', title:'5 secondes par patient', text:'Votre secrétaire saisit un numéro et c\'est tout. Pas de formation, pas de logiciel complexe.' },
             ].map(f => (
@@ -243,7 +243,7 @@ export default function LandingPage() {
                 Commencer →
               </a>
               <div className={styles.pricingFeatures}>
-                {['Tout du Starter','SMS en lot pour gain de temps','Statistiques avancées','Support prioritaire email'].map(f => (
+                {['Tout du Starter','SMS en lot (bientôt disponible)','Statistiques avancées','Support prioritaire email'].map(f => (
                   <div key={f} className={styles.pricingFeat}><span className={styles.pricingCheck}>✓</span>{f}</div>
                 ))}
               </div>
@@ -321,7 +321,7 @@ export default function LandingPage() {
           </div>
         </div>
         <div className={styles.footerBottom}>
-          <span>© 2026 Reputo · France</span>
+          <span>© 2026 Reputo</span>
           <span>Conforme RGPD</span>
         </div>
       </footer>
