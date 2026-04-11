@@ -156,11 +156,29 @@ export default function DashboardPage() {
           <div className={styles.preview}>
             <span className={styles.previewLabel}>Aperçu du SMS</span>
             <div className={styles.bubble}>
-              {profile.sms_template
-                .replace('{PATIENT}', name ? ` ${name}` : '')
-                .replace('{CABINET}', profile.cabinet_name || 'votre cabinet')
-                .replace('{FEEDBACK_URL}', 'https://app.reputo.fr/feedback/...')
-                .replace('{GOOGLE_URL}', 'https://app.reputo.fr/feedback/...')}
+              {(() => {
+                const civLong = civility === 'Mme' ? 'Madame' : civility === 'M.' ? 'Monsieur' : civility || '';
+                const preview = (profile.sms_template || '')
+                  .replace('{PRENOM}', name ? ` ${name}` : ' Marie')
+                  .replace('{CIVILITE} {NOM}', civility && lastName ? `${civility} ${lastName}` : 'M. Dupont')
+                  .replace('{CIVILITE_LONG} {NOM}', civLong && lastName ? `${civLong} ${lastName}` : 'Monsieur Dupont')
+                  .replace('{CIVILITE}', civility || 'M.')
+                  .replace('{NOM}', lastName || 'Dupont')
+                  .replace('{FEEDBACK_URL}', 'reputo.fr/f/abc...')
+                  .replace('{PATIENT}', name ? ` ${name}` : ' Marie')
+                  .replace('{CABINET}', profile.cabinet_name || 'votre cabinet');
+                const hasAccents = /[àâäéèêëîïôöùûüçÀÂÄÉÈÊËÎÏÔÖÙÛÜÇ]/.test(preview);
+                return (
+                  <>
+                    <span>{preview}</span>
+                    {hasAccents && (
+                      <div style={{marginTop:'8px', fontSize:'11px', color:'var(--amber)', background:'var(--amber-dim)', padding:'6px 10px', borderRadius:'var(--radius)'}}>
+                        ⚠ Votre message contient des accents — comptera comme {Math.ceil(preview.length / 70)} SMS au lieu de 1
+                      </div>
+                    )}
+                  </>
+                );
+              })()}
             </div>
           </div>
         )}
