@@ -98,7 +98,7 @@ export default function LandingPage() {
           <h2 className={styles.sectionTitle}>Simple pour votre équipe.<br/>Puissant pour votre réputation.</h2>
           <div className={styles.steps}>
             {[
-              { n:'01', icon:'📱', title:"Votre assistante saisit le numéro", text:"Après la consultation, elle entre le numéro du patient dans Reputo. 5 secondes. Le SMS part automatiquement avec le nom de votre cabinet." },
+              { n:'01', icon:'📱', title:"Votre assistante saisit le numéro", text:"Après la consultation, elle entre le numéro du patient dans Reputo en 5 secondes. Le SMS part automatiquement avec le nom de votre cabinet." },
               { n:'02', icon:'⭐', title:"Le patient choisit son nombre d'étoiles", text:"Il clique sur le lien, voit une page simple avec 1 à 5 étoiles. Vous définissez le seuil (par défaut 4 étoiles) qui déclenche la redirection Google." },
               { n:'03', icon:'🔀', title:"Reputo filtre intelligemment", text:"Note ≥ seuil → redirigé vers votre fiche Google pour laisser un avis. Note < seuil → formulaire de feedback privé envoyé directement à vous." },
             ].map(s => (
