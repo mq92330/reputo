@@ -34,6 +34,11 @@ export default function DashboardPage() {
 
     const { data: fb } = await supabase.from('patient_feedbacks').select('*').eq('user_id', user.id).order('created_at', { ascending: false }).limit(10);
     setFeedbacks(fb || []);
+    // Marquer les feedbacks non lus comme lus
+    const unreadIds = (fb || []).filter(f => !f.read).map(f => f.id);
+    if (unreadIds.length > 0) {
+      await supabase.from('patient_feedbacks').update({ read: true }).in('id', unreadIds);
+    }
 
     const startOfMonth = new Date(new Date().getFullYear(), new Date().getMonth(), 1).toISOString();
     const { count: monthCount } = await supabase.from('sms_logs').select('*', { count: 'exact', head: true }).eq('user_id', user.id).gte('sent_at', startOfMonth);
@@ -185,10 +190,12 @@ export default function DashboardPage() {
       </div>
 
       {/* PRIVATE FEEDBACKS */}
-      {feedbacks.length > 0 && (
-        <div className={styles.card}>
+      <div className={styles.card}>
           <h2 className={styles.cardTitle}>Feedbacks privés reçus</h2>
           <p className={styles.cardSub}>Ces patients ont laissé une note inférieure à votre seuil. Uniquement visible par vous.</p>
+          {feedbacks.length === 0 ? (
+            <p style={{color:'var(--muted)', fontSize:'14px'}}>Aucun feedback privé pour l'instant. Les patients insatisfaits apparaîtront ici.</p>
+          ) : (
           <div className={styles.feedbacks}>
             {feedbacks.map(fb => (
               <div key={fb.id} className={`${styles.feedbackItem} ${!fb.read ? styles.feedbackUnread : ''}`}>
@@ -201,8 +208,8 @@ export default function DashboardPage() {
               </div>
             ))}
           </div>
+          )}
         </div>
-      )}
 
       {/* LOGS */}
       <div className={styles.card}>
