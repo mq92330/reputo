@@ -55,6 +55,7 @@ export default function SettingsPage() {
   const [profile, setProfile] = useState(null);
   const [saving, setSaving] = useState(false);
   const [saved, setSaved] = useState(false);
+  const [showTuto, setShowTuto] = useState(false);
 
   useEffect(() => {
     (async () => {
@@ -155,6 +156,24 @@ export default function SettingsPage() {
               placeholder="https://g.page/votre-cabinet/review" />
             <span className={styles.hint}>
               Google Maps → votre fiche → "Demander des avis" → copier le lien
+              </span>
+              <button type="button" className={styles.tutoToggle} onClick={() => setShowTuto(!showTuto)}>
+                {showTuto ? '▲ Masquer le guide' : '❓ Comment trouver mon lien ?'}
+              </button>
+              {showTuto && (
+                <div className={styles.tutoBox}>
+                  <p className={styles.tutoMethod}>Méthode 1 — Via votre fiche Google</p>
+                  <div className={styles.tutoStep}><span className={styles.tutoNum}>1</span><span>Allez sur <strong>maps.google.com</strong> et cherchez votre cabinet + ville</span></div>
+                  <div className={styles.tutoStep}><span className={styles.tutoNum}>2</span><span>Cliquez sur votre fiche → faites défiler jusqu'à <strong>"Obtenir plus d'avis"</strong></span></div>
+                  <div className={styles.tutoStep}><span className={styles.tutoNum}>3</span><span>Cliquez <strong>"Demander des avis"</strong> → copiez le lien → collez-le ci-dessus</span></div>
+                  <p className={styles.tutoMethod} style={{marginTop:'10px'}}>Méthode 2 — Sans compte Google</p>
+                  <div className={styles.tutoStep}><span className={styles.tutoNum}>1</span><span>Cherchez votre cabinet sur <strong>google.com</strong></span></div>
+                  <div className={styles.tutoStep}><span className={styles.tutoNum}>2</span><span>Cliquez <strong>"Rédiger un avis"</strong> sur votre fiche</span></div>
+                  <div className={styles.tutoStep}><span className={styles.tutoNum}>3</span><span>Copiez l'URL dans la barre du navigateur → collez-la ci-dessus</span></div>
+                  <a href="https://maps.google.com" target="_blank" rel="noopener" className={styles.tutoLink}>Ouvrir Google Maps →</a>
+                </div>
+              )}
+              <span style={{display:'none'}}>
             </span>
           </div>
         </div>
