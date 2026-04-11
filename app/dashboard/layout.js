@@ -26,10 +26,10 @@ export default function DashboardLayout({ children }) {
   }
 
   const nav = [
-    { href: '/dashboard', label: 'Tableau de bord', icon: '⊞' },
-    { href: '/dashboard/feedbacks', label: 'Feedbacks privés', icon: '💬' },
-    { href: '/dashboard/envois', label: 'Derniers envois', icon: '📋' },
-    { href: '/dashboard/settings', label: 'Paramètres', icon: '⚙' },
+    { href: '/dashboard', label: 'Tableau de bord', icon: '' },
+    { href: '/dashboard/feedbacks', label: 'Feedbacks privés', icon: '' },
+    { href: '/dashboard/envois', label: 'Derniers envois', icon: '' },
+    { href: '/dashboard/settings', label: 'Paramètres', icon: '' },
   ];
 
   return (

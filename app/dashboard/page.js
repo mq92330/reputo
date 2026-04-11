@@ -189,29 +189,7 @@ export default function DashboardPage() {
         )}
       </div>
 
-      {/* PRIVATE FEEDBACKS */}
-      <div className={styles.card}>
-          <h2 className={styles.cardTitle}>Feedbacks privés reçus</h2>
-          <p className={styles.cardSub}>Ces patients ont laissé une note inférieure à votre seuil. Uniquement visible par vous.</p>
-          {feedbacks.length === 0 ? (
-            <p style={{color:'var(--muted)', fontSize:'14px'}}>Aucun feedback privé pour l'instant. Les patients insatisfaits apparaîtront ici.</p>
-          ) : (
-          <div className={styles.feedbacks}>
-            {feedbacks.map(fb => (
-              <div key={fb.id} className={`${styles.feedbackItem} ${!fb.read ? styles.feedbackUnread : ''}`}>
-                <div className={styles.feedbackHeader}>
-                  <span className={styles.feedbackStars}>{'★'.repeat(fb.stars)}{'☆'.repeat(5 - fb.stars)}</span>
-                  <span className={styles.feedbackDate}>{new Date(fb.created_at).toLocaleDateString('fr-FR')}</span>
-                  {fb.patient_name && <span className={styles.feedbackName}>{fb.patient_name}</span>}
-                </div>
-                <p className={styles.feedbackText}>{fb.feedback_text}</p>
-              </div>
-            ))}
-          </div>
-          )}
-        </div>
-
-      {/* LOGS */}
+      {/* LOGS */
       <div className={styles.card}>
         <h2 className={styles.cardTitle}>Derniers envois</h2>
         {logs.length === 0 ? (
