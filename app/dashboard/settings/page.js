@@ -32,7 +32,7 @@ function buildTemplate(greetingVal, praticienLabel) {
     madame_monsieur_nom: 'Bonjour {CIVILITE_LONG} {NOM},',
     generique:           'Bonjour,',
   }[greetingVal] || 'Bonjour,';
-  return `${opening} merci pour votre visite. Comment s'est passée votre consultation ? {FEEDBACK_URL}\n— ${praticienLabel}`;
+  return `${opening} merci pour votre visite. Votre avis nous aide ! {FEEDBACK_URL} - ${praticienLabel}`;
 }
 
 function previewTemplate(tpl) {
@@ -93,6 +93,8 @@ export default function SettingsPage() {
 
   const rawTpl = form.sms_template || buildTemplate(form.greeting_format, praticienLabel);
   const tpl = rawTpl.slice(0, 160);
+  const hasSpecialChars = /[àâäéèêëîïôöùûüçÀÂÄÉÈÊËÎÏÔÖÙÛÜÇ]/.test(tpl);
+  const smsPartCount = hasSpecialChars ? Math.ceil(charCount / 70) : Math.ceil(charCount / 160);
   const preview = previewTemplate(tpl);
   const charCount = tpl.length;
 
