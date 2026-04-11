@@ -75,3 +75,11 @@
   .fieldRow { grid-template-columns:1fr; }
   .greetingGrid { grid-template-columns:1fr; }
 }
+
+.tutoToggle { background:none; border:none; color:var(--blue); font-size:11px; cursor:pointer; padding:0; margin-top:4px; text-align:left; }
+.tutoToggle:hover { text-decoration:underline; }
+.tutoBox { background:var(--blue-dim); border:0.5px solid var(--blue-light); border-radius:var(--radius-lg); padding:14px; margin-top:8px; }
+.tutoMethod { font-size:11px; font-weight:600; color:var(--blue); margin-bottom:8px; }
+.tutoStep { display:flex; gap:8px; align-items:flex-start; margin-bottom:7px; font-size:12px; color:var(--muted); line-height:1.5; }
+.tutoNum { width:18px; height:18px; border-radius:50%; background:var(--blue); color:#fff; display:flex; align-items:center; justify-content:center; font-size:10px; font-weight:600; flex-shrink:0; margin-top:1px; }
+.tutoLink { display:inline-block; margin-top:10px; font-size:12px; color:var(--blue); font-weight:500; }
