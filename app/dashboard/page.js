@@ -16,6 +16,12 @@ export default function DashboardPage() {
 
   useEffect(() => { load(); }, []);
 
+  useEffect(() => {
+    const onFocus = () => load();
+    window.addEventListener('focus', onFocus);
+    return () => window.removeEventListener('focus', onFocus);
+  }, []);
+
   async function load() {
     const { data: { user } } = await supabase.auth.getUser();
     if (!user) return;
