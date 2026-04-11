@@ -133,7 +133,20 @@ export default function SettingsPage() {
           <h2 className={styles.cardTitle}>Votre identité</h2>
           <div className={styles.fieldRow}>
             <div className={styles.field}>
-              <label>Nom de votre {prof.structure.toLowerCase().replace("cabinet d'", '').replace('cabinet de ', '').replace('cabinet ', '')}</label>
+              <label>{
+        prof.value === 'medecin' ? 'Nom de votre cabinet médical' :
+        prof.value === 'dentiste' ? 'Nom de votre cabinet dentaire' :
+        prof.value === 'kine' ? 'Nom de votre cabinet de kinésithérapie' :
+        prof.value === 'osteo' ? "Nom de votre cabinet d'ostéopathie" :
+        prof.value === 'infirmier' ? 'Nom de votre cabinet infirmier' :
+        prof.value === 'ophtalmo' ? "Nom de votre cabinet d'ophtalmologie" :
+        prof.value === 'psy' ? 'Nom de votre cabinet de psychologie' :
+        prof.value === 'orthophoniste' ? "Nom de votre cabinet d'orthophonie" :
+        prof.value === 'sage_femme' ? 'Nom de votre cabinet' :
+        prof.value === 'podologue' ? 'Nom de votre cabinet de podologie' :
+        prof.value === 'pharmacien' ? 'Nom de votre pharmacie' :
+        'Nom de votre cabinet'
+      }</label>
               <input type="text" value={form.cabinet_name}
                 onChange={e => setForm({ ...form, cabinet_name: e.target.value })}
                 placeholder={`Ex : ${prof.structure} Martin`} />
