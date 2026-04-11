@@ -24,6 +24,11 @@ export async function GET(request) {
   if (data.used) return NextResponse.json({ ok: false, error: 'Lien déjà utilisé' });
   if (new Date(data.expires_at) < new Date()) return NextResponse.json({ ok: false, error: 'Lien expiré' });
 
+  // Trace l'ouverture du lien
+  await supabaseAdmin.from('feedback_tokens')
+    .update({ opened_at: new Date().toISOString() })
+    .eq('token', token).is('opened_at', null);
+
   return NextResponse.json({
     ok: true,
     cabinet_name: data.cabinet_name,
