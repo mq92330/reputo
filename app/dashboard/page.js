@@ -189,7 +189,7 @@ export default function DashboardPage() {
         )}
       </div>
 
-      {/* LOGS */
+      {/* LOGS */}
       <div className={styles.card}>
         <h2 className={styles.cardTitle}>Derniers envois</h2>
         {logs.length === 0 ? (
