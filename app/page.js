@@ -1,8 +1,8 @@
 'use client';
 import styles from './page.module.css';
 
-const CHECKOUT_STARTER = 'https://reputo.lemonsqueezy.com/checkout/buy/204e4723-8f5d-4496-96a5-4fc13d59bfb1';
-const CHECKOUT_PRO = 'https://reputo.lemonsqueezy.com/checkout/buy/87051d66-8a2a-4d01-8938-1a42105c2451';
+const CHECKOUT_STARTER = 'https://reputo.lemonsqueezy.com/checkout/buy/7ed1f728-a4ef-4713-ac8e-3b2d76584c6f';
+const CHECKOUT_PRO = 'https://reputo.lemonsqueezy.com/checkout/buy/6bdc3669-46ab-4da3-9029-da11216e7ea9';
 
 export default function LandingPage() {
   return (
