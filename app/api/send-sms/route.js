@@ -3,6 +3,17 @@ import { createClient as createSupabaseClient } from '@supabase/supabase-js';
 import { sendSms } from '../../../lib/smsmode';
 import { randomUUID } from 'crypto';
 
+
+const rateLimitMap = new Map();
+function checkRateLimit(userId) {
+  const now = Date.now();
+  const entry = rateLimitMap.get(userId) || { count: 0, reset: now + 60000 };
+  if (now > entry.reset) { entry.count = 0; entry.reset = now + 60000; }
+  entry.count++;
+  rateLimitMap.set(userId, entry);
+  return entry.count <= 10;
+}
+
 export async function POST(request) {
   try {
     const supabase = createSupabaseClient(
