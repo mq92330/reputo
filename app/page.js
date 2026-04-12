@@ -21,7 +21,7 @@ export default function LandingPage() {
         </div>
         <div className={styles.navActions}>
           <a href="/login" className="btn-ghost" style={{padding:'8px 16px', fontSize:'13px'}}>Connexion</a>
-          <a href={CHECKOUT_STARTER} className="btn-primary" style={{padding:'8px 16px', fontSize:'13px'}}>Essai gratuit</a>
+          <a href="/register" className="btn-primary" style={{padding:'8px 16px', fontSize:'13px'}}>Essai gratuit</a>
         </div>
       </nav>
 
@@ -42,7 +42,7 @@ export default function LandingPage() {
             <br/>Vous contrôlez tout.
           </p>
           <div className={styles.heroCtas}>
-            <a href={CHECKOUT_STARTER} className="btn-primary" style={{fontSize:'15px', padding:'13px 28px'}}>
+            <a href="/register" className="btn-primary" style={{fontSize:'15px', padding:'13px 28px'}}>
               Commencer gratuitement →
             </a>
             <a href="#fonctionnement" className="btn-ghost" style={{fontSize:'15px', padding:'13px 24px'}}>
@@ -288,7 +288,7 @@ export default function LandingPage() {
             5 SMS offerts à l'inscription, sans engagement.
           </p>
           <div style={{display:'flex', gap:'12px', justifyContent:'center', flexWrap:'wrap'}}>
-            <a href={CHECKOUT_STARTER} className="btn-primary" style={{fontSize:'15px', padding:'13px 28px'}}>Commencer gratuitement →</a>
+            <a href="/register" className="btn-primary" style={{fontSize:'15px', padding:'13px 28px'}}>Commencer gratuitement →</a>
             <a href="/contact" className="btn-ghost" style={{fontSize:'15px', padding:'13px 24px'}}>Nous contacter</a>
           </div>
         </div>
