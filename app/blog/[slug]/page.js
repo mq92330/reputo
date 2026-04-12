@@ -219,8 +219,9 @@ export async function generateStaticParams() {
   return Object.keys(articles).map(slug => ({ slug }));
 }
 
-export function generateMetadata({ params }) {
-  const a = articles[params.slug];
+export async function generateMetadata({ params }) {
+  const { slug } = await params;
+  const a = articles[slug];
   if (!a) return { title: 'Article non trouvé' };
   return {
     title: a.title + ' | Blog Reputo',
@@ -229,11 +230,12 @@ export function generateMetadata({ params }) {
   };
 }
 
-export default function ArticlePage({ params }) {
-  const a = articles[params.slug];
+export default async function ArticlePage({ params }) {
+  const { slug } = await params;
+  const a = articles[slug];
   if (!a) return <div className={styles.notFound}><h1>Article non trouvé</h1><a href="/blog">← Retour au blog</a></div>;
 
-  const isProfession = PROFESSIONS_ARTICLES.includes(params.slug);
+  const isProfession = PROFESSIONS_ARTICLES.includes(slug);
 
   return (
     <div className={styles.articlePage}>
