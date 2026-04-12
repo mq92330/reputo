@@ -188,42 +188,6 @@ export default function DashboardPage() {
           </div>
         )}
       </div>
-
-      {/* LOGS */}
-      <div className={styles.card}>
-        <h2 className={styles.cardTitle}>Derniers envois</h2>
-        {logs.length === 0 ? (
-          <p style={{color:'var(--muted)', fontSize:'14px'}}>Aucun SMS envoyé. Commencez ci-dessus.</p>
-        ) : (
-          <div className={styles.tableWrap}>
-            <table className={styles.table}>
-              <thead><tr>
-                <th>Patient</th><th>Téléphone</th><th>Envoyé le</th><th>Résultat</th><th>Statut</th>
-              </tr></thead>
-              <tbody>
-                {logs.map(l => (
-                  <tr key={l.id}>
-                    <td>{l.patient_name || '—'}</td>
-                    <td style={{fontFamily:'monospace', fontSize:'12px'}}>{l.phone}</td>
-                    <td>{new Date(l.sent_at).toLocaleDateString('fr-FR', {day:'2-digit',month:'short',hour:'2-digit',minute:'2-digit'})}</td>
-                    <td>
-                      {l.feedback_type === 'google' && <span className={styles.badgeGreen}>→ Google</span>}
-                      {l.feedback_type === 'private' && <span className={styles.badgeAmber}>→ Privé</span>}
-                      {!l.feedback_type && l.stars && <span className={styles.badgeGray}>{'★'.repeat(l.stars)}</span>}
-                      {!l.feedback_type && !l.stars && <span className={styles.badgeGray}>En attente</span>}
-                    </td>
-                    <td>
-                      <span className={l.status === 'sent' ? styles.badgeGreen : styles.badgeRed}>
-                        {l.status === 'sent' ? '✓ Envoyé' : '✗ Échec'}
-                      </span>
-                    </td>
-                  </tr>
-                ))}
-              </tbody>
-            </table>
-          </div>
-        )}
-      </div>
     </div>
   );
 }
