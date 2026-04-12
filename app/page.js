@@ -1,8 +1,8 @@
 'use client';
 import styles from './page.module.css';
 
-const CHECKOUT_STARTER = 'https://votre-store.lemonsqueezy.com/checkout/buy/STARTER_ID';
-const CHECKOUT_PRO = 'https://votre-store.lemonsqueezy.com/checkout/buy/PRO_ID';
+const CHECKOUT_STARTER = 'https://reputo.lemonsqueezy.com/checkout/buy/204e4723-8f5d-4496-96a5-4fc13d59bfb1';
+const CHECKOUT_PRO = 'https://reputo.lemonsqueezy.com/checkout/buy/87051d66-8a2a-4d01-8938-1a42105c2451';
 
 export default function LandingPage() {
   return (
