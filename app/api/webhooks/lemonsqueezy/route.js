@@ -14,9 +14,12 @@ const CREDITS_MAP = {
 };
 
 function verify(raw, sig) {
-  const hmac = crypto.createHmac('sha256', process.env.LEMONSQUEEZY_WEBHOOK_SECRET)
-    .update(raw).digest('hex');
-  return hmac === sig;
+  const secret = process.env.LEMONSQUEEZY_WEBHOOK_SECRET;
+  if (!secret || !sig) return false;
+  const hmac = crypto.createHmac('sha256', secret).update(raw).digest('hex');
+  try {
+    return crypto.timingSafeEqual(Buffer.from(hmac), Buffer.from(sig));
+  } catch { return false; }
 }
 
 export async function POST(request) {
