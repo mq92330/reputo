@@ -31,7 +31,7 @@ export default function RegisterPage() {
         id: data.user.id,
         cabinet_name: cabinetName,
         star_threshold: 4,
-        credits: 20,
+        credits: 5,
         sms_template: `Bonjour{PRENOM}, merci pour votre visite. Votre avis nous aide. Notez votre expérience : {FEEDBACK_URL}`,
       });
     }
