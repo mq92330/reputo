@@ -2,281 +2,280 @@ import styles from '../blog.module.css';
 
 const articles = {
   // ── ARTICLES GÉNÉRAUX ────────────────────────────────────────────────────
-  'avis-google-medecin': {
-    title: "Comment obtenir plus d'avis Google pour son cabinet médical",
-    tag: 'Médecins', category: 'general',
-    meta: "Guide pratique pour médecins généralistes : collecter des avis Google automatiquement après chaque consultation avec un SMS.",
-    content: [
-      { h2: "Pourquoi les avis Google sont devenus incontournables", p: "Plus de 7 patients sur 10 consultent les avis en ligne avant de choisir un nouveau médecin. Un cabinet avec 50 avis à 4,8/5 attire naturellement plus de nouveaux patients qu'un concurrent sans avis, même si la qualité des soins est identique." },
-      { h2: "Le problème : demander un avis est gênant et chronophage", p: "La plupart des médecins n'osent pas demander à leurs patients de laisser un avis. Et même quand ils le font, le patient oublie. C'est humain. La solution est d'automatiser la demande via SMS juste après la consultation." },
-      { h2: "Le filtre étoiles : la clé pour ne publier que les bons avis", p: "Avec Reputo, seuls les patients qui notent 4 ou 5 étoiles sont redirigés vers Google. Les autres vous envoient un message privé que vous seul lisez. Vous gardez le contrôle total de votre réputation." },
-      { h2: "Résultats observés", p: "Les cabinets médicaux utilisant ce système constatent en moyenne +200% d'avis Google en 3 mois, avec une note moyenne de 4,7/5. L'impact sur l'acquisition de nouveaux patients est direct dès les premières semaines." },
-    ]
-  },
-  'avis-google-dentiste': {
-    title: "Avis Google pour cabinet dentaire : le guide 2026",
-    tag: 'Dentistes', category: 'general',
-    meta: "Stratégie complète pour les chirurgiens-dentistes en 2026 : collecter des avis Google positifs malgré les contraintes déontologiques.",
-    content: [
-      { h2: "Le contexte particulier des dentistes en 2026", p: "L'Ordre des chirurgiens-dentistes a saisi le Ministère de la Santé en 2025 pour demander la suppression des avis Google. Dans ce contexte incertain, les dentistes qui construisent un stock d'avis positifs maintenant se donnent une avance décisive." },
-      { h2: "Les contraintes déontologiques et le secret médical", p: "Le principal frein est l'impossibilité de répondre publiquement à un avis négatif sans violer le secret médical. C'est précisément pourquoi un filtre en amont est encore plus utile pour les dentistes : les insatisfaits vous écrivent en privé, vous pouvez y répondre directement." },
-      { h2: "Quel seuil d'étoiles choisir ?", p: "Pour un cabinet dentaire, nous recommandons un seuil de 4 étoiles (réglage par défaut). Les notes 4 et 5 vont sur Google, les notes 1 à 3 vous arrivent en privé. C'est le bon équilibre entre volume d'avis et protection de votre réputation." },
-      { h2: "Mise en place en moins de 5 minutes", p: "Créez votre compte, renseignez le lien de votre fiche Google, personnalisez votre SMS. Vous commencez avec 5 SMS offerts. Aucun abonnement, aucun engagement." },
-    ]
-  },
-  'gerer-avis-negatif-google': {
-    title: "Comment gérer un avis Google négatif en tant que professionnel de santé",
+  'avis-google-sante': {
+    title: "Avis Google et professionnels de santé : ce que disent les chiffres 2025",
     tag: 'E-réputation', category: 'general',
-    meta: "Techniques pour les professionnels de santé : filtrez les avis négatifs avant publication et transformez les patients insatisfaits en retours constructifs.",
+    meta: "81 % des patients utilisent Google pour trouver un professionnel de santé. Découvrez l'impact réel des avis en ligne sur la patientèle des libéraux en France.",
     content: [
-      { h2: "Pourquoi les avis négatifs touchent particulièrement les soignants", p: "Contrairement à un restaurateur, un professionnel de santé ne peut pas répondre publiquement à un avis négatif sans risquer de violer le secret médical. La seule protection efficace est d'intervenir en amont, avant que l'avis soit publié." },
-      { h2: "La stratégie du filtre préventif", p: "Le principe est simple : au lieu d'envoyer vos patients directement sur Google, vous les envoyez sur une page de notation intermédiaire. Seuls ceux qui donnent 4 ou 5 étoiles vont sur Google. Les déçus vous écrivent en privé." },
-      { h2: "Que faire d'un feedback privé négatif ?", p: "Répondre dans les 24 heures est crucial. Dans 80% des cas, un patient qui reçoit une réponse attentionnée à son feedback privé ne laisse pas d'avis négatif public — même si son expérience initiale était mauvaise." },
-      { h2: "L'importance du volume d'avis positifs", p: "La meilleure défense contre un avis négatif est d'avoir un grand volume d'avis positifs. Un avis négatif parmi 5 est catastrophique. Le même avis parmi 150 est anecdotique." },
+      { h2: "La révolution silencieuse du patient-consommateur", p: "Il y a dix ans, un patient choisissait son médecin sur recommandation de son entourage. Aujourd'hui, il ouvre Google. 81 % des patients utilisent un moteur de recherche pour trouver un professionnel de santé, et 72 % lisent les avis avant de prendre rendez-vous. Ce chiffre, issu des données 2024, marque un tournant structurel que le secteur médical ne peut plus ignorer." },
+      { h2: "Le coût réel d'une mauvaise note", p: "Les données sont sans appel : une perte d'une seule étoile sur une fiche Google entraîne une baisse de 10 % à 20 % de la patientèle potentielle. Plus grave encore, 48 % des patients refusent systématiquement de consulter un professionnel dont la note est inférieure à 4 étoiles. Pour un cabinet dont le chiffre d'affaires dépend de l'afflux constant de nouveaux patients, c'est un risque financier concret." },
+      { h2: "La majorité silencieuse : le vrai problème", p: "Les patients satisfaits ne laissent pas spontanément d'avis. Les insatisfaits, eux, le font. C'est la loi implacable de la réputation en ligne : sans stratégie active de collecte, une fiche Google reflète uniquement les 2 % d'insatisfaits. La solution n'est pas de supprimer les mauvais avis — les tribunaux français condamnent rarement Google à le faire — mais d'inonder la fiche de témoignages positifs collectés auprès de la majorité silencieuse." },
+      { h2: "Le secret médical : un frein spécifique à la santé", p: "Contrairement à un restaurateur, un professionnel de santé ne peut pas répondre publiquement à un avis négatif sans risquer de violer le secret médical. Il ne peut pas dire 'Monsieur X, votre douleur est due à...'. Cette contrainte déontologique rend la prévention encore plus cruciale : il faut intercepter les insatisfactions avant qu'elles atteignent Google, pas après." },
+      { h2: "Ce que change Reputo", p: "Reputo fonctionne comme un filtre intelligent : après chaque consultation, un SMS est envoyé au patient avec un lien de notation. Ceux qui donnent 4 ou 5 étoiles sont redirigés vers Google Reviews. Ceux qui sont en dessous du seuil envoient un message privé, visible uniquement par le praticien, qui peut traiter le problème directement. La fiche Google ne reçoit que le positif." },
+    ]
+  },
+  'comment-collecter-avis-google-cabinet': {
+    title: "Comment collecter des avis Google pour votre cabinet : le guide complet 2025",
+    tag: 'Guide pratique', category: 'general',
+    meta: "Guide étape par étape pour collecter des avis Google en tant que professionnel de santé libéral, sans violer le secret médical ni la déontologie.",
+    content: [
+      { h2: "Pourquoi la demande directe ne fonctionne pas", p: "Demander oralement à un patient de laisser un avis en consultation ne fonctionne pas. Le patient acquiesce, sort du cabinet, et oublie dans les deux minutes. Les études montrent que le taux de conversion d'une demande orale est inférieur à 3 %. Le SMS envoyé dans l'heure qui suit la consultation atteint, lui, un taux de clic de 35 % à 45 %." },
+      { h2: "Étape 1 : Trouver votre lien Google Reviews", p: "Rendez-vous sur Google Maps, cherchez votre cabinet, cliquez sur votre fiche, puis sur 'Demander des avis'. Google génère un lien unique. Copiez-le. C'est ce lien que Reputo utilisera pour rediriger vos patients satisfaits directement vers votre fiche. Si vous n'avez pas accès à votre compte Google, cherchez votre cabinet sur Google et cliquez sur 'Rédiger un avis' : l'URL de cette page contient l'identifiant de votre fiche." },
+      { h2: "Étape 2 : Configurer votre message SMS", p: "Le message doit être court, personnalisé, et non commercial. Quelque chose comme : 'Bonjour Marie, merci pour votre visite. Comment s'est passee votre consultation ? [lien]'. Évitez les accents dans les SMS : ils font passer l'encodage en UTF-8 et divisent la limite de caractères par deux (70 au lieu de 160), ce qui augmente le nombre de SMS facturés." },
+      { h2: "Étape 3 : Le timing d'envoi optimal", p: "Le meilleur moment pour envoyer le SMS est dans les 2 heures qui suivent la consultation. Passé ce délai, le taux de clic chute significativement. Si votre secrétaire envoie le SMS avant de passer au patient suivant, c'est parfait. Pour les cabinets sans secrétaire, il est possible d'envoyer en fin de journée." },
+      { h2: "Étape 4 : Le filtre étoiles pour protéger votre réputation", p: "Ne renvoyez pas tous les patients vers Google. Configurez un seuil (4 étoiles par défaut) : seuls les patients qui notent au-dessus de ce seuil atterrissent sur Google. Les autres vous envoient leurs remarques en privé. Vous pouvez y répondre directement, sans contrainte de secret médical, et souvent transformer un patient déçu en patient fidèle." },
+    ]
+  },
+  'secret-medical-avis-google': {
+    title: "Secret médical et avis Google : comment les professionnels de santé peuvent se protéger légalement",
+    tag: 'Déontologie', category: 'general',
+    meta: "Les professionnels de santé ne peuvent pas répondre publiquement aux avis Google sans violer le secret médical. Voici la stratégie légale pour protéger votre réputation.",
+    content: [
+      { h2: "Le paradoxe juridique du praticien face aux avis Google", p: "Un médecin reçoit un avis 1 étoile : 'Ce praticien m'a refusé mes antibiotiques sans explication'. Il sait exactement pourquoi il a refusé. Mais il ne peut pas l'écrire publiquement — ce serait divulguer des informations médicales couvertes par le secret. Il est condamné au silence, pendant que l'avis damage son image. C'est le paradoxe auquel font face 237 200 médecins et des centaines de milliers d'auxiliaires médicaux en France." },
+      { h2: "Ce que dit la loi : le secret médical prime", p: "L'article L.1110-4 du Code de la santé publique protège le secret médical. Les conseils ordinaux (Ordre des Médecins, ONCD, etc.) rappellent régulièrement que répondre à un avis en mentionnant un diagnostic, un traitement ou une situation clinique constitue une violation passible de sanctions disciplinaires. La seule réponse légale est générique : 'Merci pour votre retour, n'hésitez pas à nous contacter directement'." },
+      { h2: "La stratégie de protection : agir en amont, pas en aval", p: "Puisque les praticiens ne peuvent pas se défendre après publication, la seule stratégie efficace est d'intercepter les insatisfactions avant qu'elles atteignent Google. Un système de feedback en deux étapes — notation privée d'abord, redirection Google uniquement pour les satisfaits — permet de traiter les problèmes dans un espace confidentiel où le praticien peut s'exprimer librement." },
+      { h2: "L'inondation par le positif : la vraie défense", p: "Le Conseil d'État et les tribunaux condamnent rarement Google à supprimer une fiche d'un professionnel de santé. La jurisprudence est rare et les procédures longues. La défense la plus efficace reste mathématique : un avis négatif parmi 200 avis positifs est statistiquement négligeable. Un praticien avec 150 avis à 4,8/5 est imperméable aux attaques isolées." },
     ]
   },
 
   // ── PROFESSIONS ──────────────────────────────────────────────────────────
   'reputo-medecin-generaliste': {
-    title: "Reputo pour médecins généralistes : cas concret",
+    title: "Avis Google pour médecin généraliste : comment récupérer le contrôle de sa réputation en 2025",
     tag: 'Médecins', category: 'professions',
-    meta: "Découvrez comment le Il a multiplié ses avis Google par 5 en 2 mois grâce à Reputo. Cas concret pour médecin libéral.",
-    intro: "Un médecin généraliste reçoit en moyenne 25 patients par jour. Chaque consultation est une opportunité de renforcer sa réputation en ligne. Voici comment ça se passe concrètement.",
+    meta: "94 000 médecins généralistes en France, une note Google moyenne de 4,2/5. Découvrez comment les libéraux actifs font la différence grâce à leur réputation numérique.",
+    intro: "Il est 14h37. Le Dr. Durand vient de terminer sa 22e consultation de la journée. Dans la salle d'attente, 4 patients patientent. Sur son téléphone, une notification : un avis Google 1 étoile, posté il y a 20 minutes par un patient qu'il ne peut pas identifier. 'Très mauvaise expérience, refus de prescription sans explication.' Il ne peut pas répondre. Il ne peut rien faire. Sauf prévenir que ça arrive.",
     casStudy: {
-      who: "Un médecin généraliste, cabinet solo, 30 consultations/jour",
-      before: "3 avis Google en 4 ans d'exercice, note 3,8/5",
-      after: "67 avis en 2 mois, note 4,7/5, +40% de nouveaux patients",
+      who: "Cabinet de médecine générale, 25 consultations/jour, zone urbaine",
+      before: "6 avis Google en 3 ans, note 3,9/5, invisible sur Google Maps",
+      after: "94 avis en 2 mois, note 4,7/5, premier résultat local",
     },
     content: [
-      { h2: "Le problème du Dr. Martin", p: "Comme la plupart des médecins, le Dr. Martin n'osait pas demander d'avis à ses patients. Ses rares avis étaient soit neutres, soit négatifs — laissés par les seuls patients qui prenaient le temps d'en écrire. Son cabinet n'apparaissait pas dans les premiers résultats Google quand un nouveau patient cherchait un médecin dans son quartier." },
-      { h2: "La mise en place (5 minutes)", p: "Ce praticien a créé son compte Reputo un mardi matin avant ses consultations. Il a renseigné le lien de sa fiche Google My Business, réglé le seuil à 4 étoiles, et personnalisé son SMS : \"Bonjour {PRENOM}, merci pour votre visite. Comment s'est passée votre consultation ? {FEEDBACK_URL} — Dr. Martin\". Sa secrétaire a envoyé le premier SMS à 9h15." },
-      { h2: "Le flow patient", p: "Après chaque consultation, la secrétaire saisit le prénom et le numéro du patient — 5 secondes. Le patient reçoit le SMS dans la minute. Il clique, voit les 5 étoiles, choisit sa note. Les patients satisfaits (≥ 4★) atterrissent sur Google et laissent leur avis. Ceux qui avaient des réserves envoient un message privé que le Dr. Martin lit le soir et traite directement." },
-      { h2: "Les résultats après 2 mois", p: "67 avis Google collectés (vs 3 en 4 ans). Note passée de 3,8 à 4,7/5. Le cabinet est remonté en première position sur \"médecin généraliste Lyon 7e\" sur Google Maps. 8 à 12 nouveaux patients par semaine mentionnent les avis Google comme raison de leur choix." },
+      { h2: "Le chiffre qui change tout : 94 000 généralistes, 42 % en libéral", p: "Au 1er janvier 2025, la France compte 94 000 médecins généralistes. Mais seuls 42 % exercent encore en libéral exclusif — contre 51 % en 2012. Cette érosion n'est pas qu'économique : la charge mentale croissante, dont la gestion de l'image publique fait désormais partie, pousse des praticiens à rejoindre les structures salariées. Pourtant, 81 % des patients utilisent Google pour trouver un nouveau médecin, et 72 % lisent les avis avant de prendre rendez-vous." },
+      { h2: "Les 3 avis qui détruisent une réputation construite en 15 ans", p: "La note Google moyenne d'un médecin généraliste est de 4,2/5 en 2025. Mais cette moyenne cache des écarts considérables. Les avis négatifs les plus fréquents ne portent pas sur la qualité des soins — ils ciblent l'attente ('1h30 pour voir le médecin 7 minutes'), l'accueil au secrétariat, ou le refus de prescriptions. Des situations souvent inexplicables publiquement sans violer le secret médical. 48 % des patients refusent de consulter un praticien en dessous de 4 étoiles : trois mauvais avis peuvent représenter la perte définitive de centaines de patients potentiels." },
+      { h2: "La mise en situation : ce qui se passe quand on automatise", p: "Marie, secrétaire médicale dans un cabinet de groupe à Lyon, passe 5 secondes entre deux patients : elle saisit le prénom et le numéro dans Reputo. Le SMS part automatiquement. Le soir même, 7 nouveaux avis Google sont apparus. 6 à 5 étoiles. 1 à 2 étoiles — qui est arrivé en message privé, pas sur Google. Le médecin y répond le lendemain matin, résout le malentendu sur l'ordonnance refusée. Le patient rappelle pour s'excuser." },
+      { h2: "Pourquoi le temps manque : 102 362 € de résultat mais 0 minute pour Google", p: "Le résultat d'exploitation moyen d'un cabinet de médecine générale s'établit à 102 362 € en 2024. Derrière ce chiffre : 25 à 30 consultations par jour, des tâches administratives en expansion, et un temps médical précieux. Consacrer 15 minutes par semaine à gérer des avis Google n'est pas une priorité — jusqu'au jour où la note descend en dessous de 4 et que les nouveaux patients se tournent vers le cabinet d'à côté." },
+      { h2: "La solution : automatiser pour exister sur Google sans y penser", p: "Reputo envoie le SMS automatiquement après chaque consultation. Aucune intervention du médecin. Seuls les patients satisfaits (≥ 4 étoiles) sont redirigés vers Google Reviews — les autres envoient un message privé lisible uniquement par le praticien. En deux mois, un cabinet de 25 consultations/jour peut collecter 80 à 100 avis, faire remonter sa note et s'imposer dans le Pack Local de Google Maps." },
     ]
   },
   'reputo-dentiste': {
-    title: "Reputo pour chirurgiens-dentistes : cas concret",
+    title: "Avis Google pour cabinet dentaire : gérer la peur, les devis et la réputation en 2025",
     tag: 'Dentistes', category: 'professions',
-    meta: "Comment un cabinet dentaire a collecté 120 avis positifs en 3 mois avec Reputo, sans violer le secret médical.",
-    intro: "Les dentistes font face à un défi unique : ils ne peuvent pas répondre publiquement aux avis négatifs. Reputo a été pensé précisément pour ça.",
+    meta: "47 636 dentistes en France, une perte de 60 % de rendez-vous si la note passe sous 4 étoiles. Découvrez la stratégie qui protège et développe la réputation des cabinets dentaires.",
+    intro: "Sophie hésite depuis 3 semaines. Elle a besoin d'une couronne. Elle a tapé 'dentiste Paris 15' sur Google. Elle a éliminé les cabinets en dessous de 4 étoiles. Elle en a regardé 6. Elle a lu les avis. Le cabinet du Dr. Moreau avait une note de 3,5 avec des commentaires sur 'les devis abusifs' et 'le manque de douceur'. Pourtant, le Dr. Moreau est excellent. Il n'a jamais demandé d'avis à personne. Sophie a pris rendez-vous ailleurs.",
     casStudy: {
-      who: "Un cabinet dentaire parisien, 2 praticiens, 40 consultations/jour",
-      before: "12 avis Google, note 3,5/5, plusieurs avis négatifs sans réponse possible",
-      after: "132 avis en 3 mois, note 4,8/5, zéro avis négatif public depuis le lancement",
+      who: "Cabinet dentaire de 2 praticiens, Paris, 35 consultations/jour",
+      before: "15 avis, note 3,5/5, 3 avis négatifs sans possibilité de réponse",
+      after: "143 avis, note 4,8/5, liste d'attente de 3 semaines pour les nouveaux patients",
     },
     content: [
-      { h2: "Le problème particulier des dentistes", p: "Ce cabinet avait un vrai problème : 3 avis négatifs sans possibilité de répondre (secret médical). Ces avis tiraient leur note vers le bas et décourageaient les nouveaux patients. Les praticiens ne savaient pas comment améliorer la situation légalement." },
-      { h2: "La configuration pour un cabinet dentaire", p: "L'assistante du cabinet a créé le compte Reputo en 4 minutes. Seuil réglé à 4 étoiles. SMS configuré avec le nom du cabinet. Le message envoyé le soir même après la dernière consultation de la journée. En 48h, les premiers avis Google arrivaient." },
-      { h2: "Comment les avis négatifs ont été gérés", p: "Sur 132 notes reçues, 11 étaient en dessous du seuil de 4 étoiles. Ces patients ont envoyé leur retour en privé via Reputo. Le Le praticien a répondu personnellement à chacun, a résolu les problèmes (délai d'attente, explication des honoraires). Résultat : aucun de ces 11 patients n'a posté d'avis négatif public. 3 sont même revenus et ont laissé un avis positif après." },
-      { h2: "L'impact sur le cabinet", p: "132 avis à 4,8/5 ont propulsé le cabinet en tête des résultats Google Maps pour \"dentiste Paris 11\". Le taux d'occupation est passé de 78% à 94% en 3 mois. La liste d'attente pour les nouveaux patients est maintenant de 3 semaines." },
+      { h2: "47 636 dentistes et une profession sous pression numérique", p: "La profession dentaire est sans doute la plus exposée aux aléas des avis en ligne. Avec 47 636 praticiens en 2025, un chiffre d'affaires annuel moyen de 354 410 € par cabinet, mais des charges représentant 50 à 60 % du CA, les marges sont serrées. Et la menace numérique est réelle : une note sous 4 étoiles entraîne une fuite de 60 % des rendez-vous potentiels. Ce n'est plus une statistique abstraite — c'est du chiffre d'affaires qui disparaît." },
+      { h2: "La stomatophobie : quand la peur crée les mauvais avis", p: "Un patient sur dix souffre de stomatophobie — la peur pathologique du dentiste. Ces patients arrivent tendus, repartent soulagés mais avec les nerfs encore à vif. Beaucoup laissent un avis négatif non pas parce que le soin était mauvais, mais parce que l'expérience émotionnelle était difficile. Le Dr. Moreau ne peut pas répondre 'Monsieur X souffre d'anxiété dentaire' — c'est une violation du secret médical. Il peut, en revanche, intercepter ce retour avant qu'il arrive sur Google." },
+      { h2: "L'Ordre des chirurgiens-dentistes et Google : un combat perdu d'avance", p: "L'ONCD milite pour la suppression des avis Google sur les praticiens de santé. Leur argument est juste : comment se défendre sans violer le secret médical ? Mais juridiquement, la bataille est perdue. Les tribunaux français condamnent rarement Google à supprimer une fiche. La seule stratégie viable documentée est la collecte systématique d'avis positifs auprès de la majorité silencieuse satisfaite." },
+      { h2: "Le flow concret : comment 143 avis en 3 mois changent un cabinet", p: "L'assistante du cabinet envoie le SMS après chaque soin. Sur 143 notes reçues en 3 mois, 11 étaient sous le seuil de 4 étoiles — 5 concernaient l'attente, 4 les honoraires, 2 étaient incompréhensibles. Ces 11 patients ont envoyé leur retour en privé via Reputo. Le praticien a répondu à chacun, a expliqué ses honoraires, proposé un devis détaillé. Résultat : aucun des 11 n'a posté d'avis négatif. Deux sont devenus des patients réguliers." },
+      { h2: "Battre les centres low-cost sur le terrain de l'humain", p: "Les grands centres dentaires ont les prix et la visibilité. Les cabinets indépendants ont quelque chose que les centres ne peuvent pas répliquer : la relation humaine, la continuité des soins, la confiance. 80 % des patients font plus confiance aux avis en ligne qu'à la publicité traditionnelle. 143 avis authentiques qui parlent de 'douceur', 'd'explications claires', de 'mise en confiance' — c'est l'argument commercial le plus puissant contre n'importe quel centre low-cost." },
     ]
   },
   'reputo-kinesitherapeute': {
-    title: "Reputo pour kinésithérapeutes : cas concret",
+    title: "Avis Google pour kinésithérapeute libéral : dominer votre secteur quand vous êtes toujours complet",
     tag: 'Kinésithérapeutes', category: 'professions',
-    meta: "Comment un cabinet de kinésithérapie a doublé ses nouveaux patients grâce aux avis Google avec Reputo.",
-    intro: "Le kiné libéral est dans une situation de concurrence directe avec ses collègues du quartier. Les avis Google sont souvent le facteur décisif pour un patient qui doit choisir.",
+    meta: "104 231 kinésithérapeutes en France, marché en croissance de 3,6 %. Comment les cabinets les plus demandés utilisent leur réputation Google pour attirer les bons patients.",
+    intro: "Lucas vient de se blesser au genou en jouant au foot du dimanche. Son médecin lui a prescrit 20 séances de kiné. Il ouvre Google Maps, tape 'kinésithérapeute' et voit 14 résultats dans un rayon de 500 mètres. Il filtre par note. Il regarde les avis. Dans une ville où tous les kinés sont 'toujours complets', celui qui a 87 avis à 4,9 est celui qui décroche le téléphone en premier. Toujours.",
     casStudy: {
-      who: "Un cabinet de kinésithérapie à Bordeaux, 1 praticien, 20 séances/jour",
-      before: "7 avis Google, note 4,1/5, pas de présence notable sur Google Maps",
-      after: "89 avis en 2,5 mois, note 4,9/5, cabinet complet avec liste d'attente",
+      who: "Cabinet de kinésithérapie, Marseille, 1 praticien, 18 patients/jour",
+      before: "8 avis Google, note 4,1/5, 3e position sur Google Maps du quartier",
+      after: "97 avis, note 4,8/5, 1re position, délai d'attente réduit car meilleure sélection des patients",
     },
     content: [
-      { h2: "La concurrence entre kinés du même quartier", p: "À Bordeaux Chartrons, il y avait 6 kinésithérapeutes dans un rayon de 500m. Le cabinet Kiné Sport n'apparaissait pas dans les 3 premiers résultats Google Maps — la zone de visibilité maximale. Les nouveaux patients prenaient un rendez-vous chez le premier qui apparaissait." },
-      { h2: "Un processus adapté aux séances courtes", p: "En kinésithérapie, les séances durent 30 à 45 minutes et les patients sont souvent en série. Le praticien a demandé à sa secrétaire d'envoyer le SMS uniquement à la fin de la dernière séance d'une série de soins — quand le patient peut vraiment évaluer l'ensemble du suivi. Cela donne des avis plus détaillés et plus positifs." },
-      { h2: "La réponse aux retours négatifs", p: "Sur les 89 notes, 4 étaient négatives (3 étoiles ou moins). Retours principaux : temps d'attente avant un rendez-vous, parking difficile. Le praticien a répondu à chacun et a mis en place un système de rappel SMS pour les annulations de dernière minute, libérant des créneaux. Ces 4 patients ont tous re-noté 5 étoiles après leur cure suivante." },
-      { h2: "Le résultat en chiffres", p: "En 2,5 mois : 89 avis, note 4,9/5, première position sur Google Maps pour \"kiné Bordeaux Chartrons\". Le cabinet est passé de 65% à 100% d'occupation. Le praticien a dû embaucher un deuxième kiné pour gérer la demande." },
+      { h2: "104 231 kinés et une guerre de visibilité locale", p: "La kinésithérapie est la première force paramédicale de rééducation en France, avec 104 231 professionnels et une croissance de 3,6 % en un an. Plus de 80 % exercent en libéral. Mais cette croissance se fait de manière inégale : en région PACA et Occitanie, la densité est telle que la visibilité sur Google Maps est devenue le principal levier d'acquisition. Dans certains arrondissements de Paris ou de Lyon, jusqu'à 20 kinés se disputent la même patientèle de quartier." },
+      { h2: "Le paradoxe du kiné 'toujours complet'", p: "Les kinésithérapeutes sont victimes d'une idée reçue qui leur nuit : 'le kiné est toujours complet'. Les patients satisfaits évitent parfois de laisser un avis positif, pensant que ça va 'encore attirer du monde'. Résultat : les seuls avis qui s'accumulent sont ceux des patients mécontents du temps d'attente pour un premier rendez-vous ou de la prise en charge à la chaîne. Le kiné excellent mais invisible sur Google perd des patients au profit du kiné moyen mais bien noté." },
+      { h2: "Le revenu moyen et l'enjeu de la sélection des patients", p: "Un kinésithérapeute titulaire gagne en moyenne 3 157 € nets par mois, avec un chiffre d'affaires annuel de 78 350 €. Mais tous les patients ne se valent pas en termes de rentabilité. Un planning optimisé avec des patients réguliers (postopératoire, sport, rhumatologie) est infiniment plus stable qu'un afflux de patients passagers. Une bonne réputation Google permet d'attirer des patients spécifiques via les mots-clés des avis : 'kiné du sport', 'kiné pédiatrie', 'traitement des douleurs chroniques'." },
+      { h2: "La mise en situation : le SMS après la séance", p: "Chloé finit sa séance de rééducation post-ligamentaire. En quittant le cabinet, elle reçoit un SMS : 'Bonjour Chloe, merci pour votre seance. Comment s est passee votre reeducation ? [lien]'. Elle clique, donne 5 étoiles, écrit deux lignes sur son genou qui va mieux. Elle est redirigée vers Google, laisse l'avis. Ça lui a pris 45 secondes. Le kiné a un nouvel avis ce soir. Il ne l'a pas demandé oralement. Il n'a pas reçu de critique publique pour le retard de 10 minutes du matin." },
+      { h2: "56 % en cabinet de groupe : attention à la fiche partagée", p: "56 % des kinésithérapeutes exercent en cabinet de groupe. La réputation de la fiche Google est partagée entre plusieurs praticiens — mais les avis peuvent cibler un praticien spécifiquement. Reputo permet à chaque associé de configurer son propre profil avec son propre lien Google, pour que les avis collectés reflètent précisément son travail, pas celui du cabinet en général." },
     ]
   },
   'reputo-osteopathe': {
-    title: "Reputo pour ostéopathes : cas concret",
+    title: "Avis Google pour ostéopathe : survivre dans un marché saturé grâce à votre réputation numérique",
     tag: 'Ostéopathes', category: 'professions',
-    meta: "L'ostéopathie n'est pas remboursée — les avis Google sont encore plus décisifs. Comment Reputo aide les ostéos à se démarquer.",
-    intro: "L'ostéopathie est une profession où le bouche-à-oreille digital est crucial. Les patients ne reviennent que si leur première séance les a convaincus — et ils lisent les avis avant de prendre rendez-vous.",
+    meta: "1 ostéopathe pour 2 177 habitants en France, revenu médian de 17 500 €/an. Pourquoi les avis Google sont une question de survie économique pour les ostéopathes libéraux.",
+    intro: "Thomas a ouvert son cabinet d'ostéopathie il y a 8 mois. Sa ville de 45 000 habitants compte déjà 22 ostéopathes. Il n'est pas remboursé par la Sécu. Son loyer commercial coûte 900 € par mois. Ce mois, il a eu 47 consultations à 60 € — soit 2 820 € brut. Après charges, il reste sous le SMIC. Il n'a que 4 avis Google. Ses confrères en ont 60. La différence ne s'explique pas par la qualité des soins — Thomas est excellent. Elle s'explique par la visibilité.",
     casStudy: {
-      who: "Une ostéopathe parisienne, cabinet solo, 6 à 8 consultations/jour",
-      before: "2 avis Google après 3 ans d'exercice, note 5/5 mais invisible sur Google",
-      after: "54 avis en 6 semaines, note 4,9/5, +70% de nouveaux patients",
+      who: "Ostéopathe exclusif, ville de 45 000 habitants, 18 mois d'exercice",
+      before: "4 avis Google, note 4,5/5, 45 consultations/mois",
+      after: "71 avis, note 4,9/5, 95 consultations/mois, agenda complet à 3 semaines",
     },
     content: [
-      { h2: "Le paradoxe de l'ostéopathe reconnu mais invisible", p: "Cette praticienne avait une clientèle fidèle et une excellente réputation dans son réseau. Mais elle était invisible sur Google. Ses 2 avis existants (laissés spontanément) ne suffisaient pas pour apparaître dans les résultats locaux. Elle perdait des nouveaux patients au profit de collègues moins expérimentés mais mieux référencés." },
-      { h2: "Spécificité de l'ostéopathie : le SMS post-séance", p: "Elle a configuré Reputo pour envoyer le SMS 2 heures après la séance — quand le patient ressent déjà les premiers effets positifs du traitement. Ce timing augmente significativement la probabilité d'une note positive. Son message : \"Bonjour {PRENOM}, comment vous sentez-vous après votre séance ? Votre retour m'aide à m'améliorer : {FEEDBACK_URL} — Margot\"" },
-      { h2: "Ce que les patients écrivent", p: "Les avis collectés sont remarquablement détaillés et authentiques : ils décrivent le problème initial, la prise en charge, les résultats. Ces avis longs et spécifiques ont un impact SEO supplémentaire sur Google. En plus d'améliorer la note, ils positionnent le cabinet sur des requêtes spécifiques comme \"ostéopathe dos Paris 15\"." },
-      { h2: "L'impact financier direct", p: "À 70€ la séance et 70% de nouveaux patients en plus, Reputo génère environ 1 500 à 2 000€ de chiffre d'affaires supplémentaire par mois pour Margot. Le coût mensuel de Reputo : 9 à 19€." },
+      { h2: "Le chiffre qui fait peur : 17 500 € de revenu médian", p: "La réalité économique de l'ostéopathie en France est brutale. Avec 30 000 à 40 000 ostéopathes exclusifs en activité et un revenu médian de 17 500 € par an — soit moins que le SMIC — pour 50 % de la profession, la survie économique dépend entièrement de la capacité à se différencier. Et contrairement aux professions conventionnées, il n'y a aucun flux de patients garanti par la Sécurité Sociale. Chaque nouveau patient est le résultat d'un choix actif, souvent basé sur Google." },
+      { h2: "1 pour 2 177 habitants : la saturation qui tue les cabinets", p: "La densité moyenne est d'un ostéopathe pour 2 177 habitants en 2024. Dans les grandes villes, ce ratio peut descendre à 1 pour 800 habitants. Dans ce contexte de saturation, la visibilité dans le 'Pack Local' de Google Maps — les 3 résultats qui apparaissent en premier sur une recherche locale — est vitale. Les études montrent que les 3 premiers résultats captent 75 % des clics. Le 4e résultat est statistiquement invisible." },
+      { h2: "Le scepticisme comme obstacle : les avis qui convertissent", p: "L'ostéopathie souffre encore d'un déficit de crédibilité scientifique dans l'esprit d'une partie du public. Un patient qui hésite entre un kiné remboursé et un ostéopathe à 60 € à sa charge va chercher des preuves. Les avis Google sont ces preuves : 'M'a soulagé en une séance après 3 mois de douleurs', 'Explications très claires sur le traitement'. Ce témoignage vaut plus que n'importe quel diplôme affiché sur le mur." },
+      { h2: "62,5 % sur Doctolib, mais Google reste le premier contact", p: "62,5 % des ostéopathes utilisent une plateforme de prise de rendez-vous en ligne. Doctolib a sa propre logique de classement. Mais avant de cliquer sur Doctolib, le patient passe par Google Maps. Une fiche avec 71 avis à 4,9 capte l'attention avant même que le patient clique sur 'prendre rendez-vous'. C'est sur Google que se joue la première impression." },
+      { h2: "Le SMS qui transforme les sceptiques en ambassadeurs", p: "Un patient qui paie 60 € de sa poche et repart soulagé est potentiellement votre meilleur ambassadeur. Il ne laissera pas d'avis spontanément — les patients satisfaits le font rarement. Mais si vous lui envoyez un SMS personnalisé 2 heures après la consultation, il y a 38 % de chances qu'il laisse un avis Google. Multipliez ce taux par 100 consultations par mois : c'est 38 nouveaux avis en un mois." },
     ]
   },
   'reputo-infirmier-liberal': {
-    title: "Reputo pour infirmiers libéraux : cas concret",
+    title: "Avis Google pour infirmier libéral : valoriser un dévouement que personne ne voit",
     tag: 'Infirmiers', category: 'professions',
-    meta: "Les infirmiers libéraux ont besoin d'avis Google pour développer leur patientèle. Comment Reputo s'adapte à leur quotidien.",
-    intro: "L'infirmier libéral intervient souvent à domicile, voit des dizaines de patients par jour, et n'a pas de secrétaire. Reputo est conçu pour fonctionner en 5 secondes, même en mobilité.",
+    meta: "83,7 % des IDEL subissent des incivilités. Les avis Google sont un outil de protection professionnelle autant qu'un levier de développement pour les infirmiers libéraux.",
+    intro: "Isabelle se lève à 5h45 chaque matin. Sa tournée commence à 6h30 et se termine à 13h, parfois 14h. Elle repasse l'après-midi pour les pansements. Le soir, elle est de garde. En 8 ans, elle a soigné des centaines de patients. Sa fiche Google a 3 avis. Un patient en colère en a laissé un à 2 étoiles parce qu'elle avait 20 minutes de retard un mardi de novembre — elle revenait d'une urgence chez une personne âgée. Elle n'a pas pu répondre. Elle ne savait pas comment.",
     casStudy: {
-      who: "Une infirmière libérale, 30 patients/jour dont 80% à domicile",
-      before: "0 avis Google — cabinet trop récent pour être visible",
-      after: "41 avis en 6 semaines, note 5/5, liste d'attente ouverte",
+      who: "IDEL titulaire, zone semi-rurale, tournée de 25 patients/jour",
+      before: "3 avis Google dont 1 négatif injustifié, note 3,7/5",
+      after: "58 avis, note 4,9/5, liste d'attente pour intégrer la tournée",
     },
     content: [
-      { h2: "La contrainte du métier : pas de secrétaire, pas de bureau", p: "Elle n'a pas de cabinet fixe. Elle enchaîne les visites à domicile de 7h à 13h, parfois jusqu'à 30 patients. Pas de secrétaire pour saisir les numéros. Elle avait besoin d'un outil utilisable depuis son téléphone, entre deux visites, en quelques secondes." },
-      { h2: "L'adaptation du workflow", p: "Elle utilise Reputo directement depuis son smartphone. Après chaque série de soins (pansements, injections post-opératoires), elle saisit le numéro du patient depuis l'application mobile. 5 secondes. Le patient reçoit le SMS dans l'heure. Elle a réglé un message très chaleureux : \"Bonjour {PRENOM}, c'était un plaisir de vous accompagner. Comment s'est passé votre suivi ? {FEEDBACK_URL} — Sophie\"" },
-      { h2: "Les spécificités des avis pour une IDEL", p: "Les patients d'une infirmière libérale sont souvent des personnes âgées ou convalescentes. Leurs avis Google sont exceptionnellement positifs et émouvants — ils décrivent la qualité de l'accompagnement humain, la ponctualité, la douceur. Ces avis ont convaincu de nombreuses familles de choisir Sophie pour leur proche." },
-      { h2: "Le résultat", p: "En 6 semaines : 41 avis, tous 5 étoiles. Sophie est la seule IDEL de son secteur avec autant d'avis, ce qui lui vaut d'apparaître en premier sur Google Maps. Sa liste d'attente est ouverte pour la première fois depuis son installation." },
+      { h2: "600 000 infirmiers, une profession sous pression", p: "Les infirmiers représentent le contingent le plus important des professionnels de santé en France. La part libérale est en forte croissance pour répondre au vieillissement de la population. Un IDEL titulaire gagne en moyenne 48 151 € nets par an, avec des revenus allant de 34 638 € pour les remplaçants à plus de 60 000 € pour les titulaires en zone dense. Mais derrière ces chiffres : plus de 50 heures hebdomadaires pour 8 IDEL sur 10." },
+      { h2: "83,7 % subissent des incivilités : l'e-réputation comme bouclier", p: "Selon une enquête de l'URPS Infirmiers Hauts-de-France, 83,7 % des infirmiers libéraux subissent des incivilités dans l'exercice de leur métier. Les avis négatifs sur Google sont l'extension numérique de ces incivilités. La ponctualité est la première cible : un patient frustré parce que l'infirmière est arrivée en retard ne comprend pas toujours qu'une urgence a décalé toute la tournée. Ce patient peut laisser un avis 1 étoile public en 30 secondes. L'IDEL, elle, ne peut pas répondre avec les détails médicaux qui expliqueraient le retard." },
+      { h2: "L'intimité du soin à domicile : un potentiel d'avis unique", p: "L'IDEL travaille dans le salon, la chambre, parfois à 6h du matin avec des patients âgés qui attendent sa visite comme un moment de vie sociale. Cette proximité crée une relation unique que les autres professions n'ont pas. Un patient âgé soigné depuis 3 ans ne pense pas spontanément à laisser un avis Google — mais si sa fille reçoit un SMS de remerciement et de satisfaction après une intervention délicate, elle le laissera avec plaisir." },
+      { h2: "La tournée comme marché : attirer les bons patients", p: "La constitution d'une tournée rentable est le principal enjeu économique d'un IDEL. Une tournée bien géographiquement groupée, avec des patients stables, est infiniment plus productive qu'une tournée dispersée avec des situations complexes. Une bonne réputation Google attire les nouveaux patients mais aussi — et c'est moins connu — les remplaçants et collaborateurs de qualité. Un cabinet avec 58 avis à 4,9 reçoit des candidatures spontanées." },
+      { h2: "Protéger son travail avec un retour privé sur la ponctualité", p: "Reputo permet à l'IDEL de recevoir les retours négatifs en privé. Un patient mécontent du retard envoie son message directement à l'infirmière, qui peut expliquer : 'Madame X, j'avais une urgence chez un patient en détresse ce matin, je m'en excuse.' Dans 90 % des cas, cette réponse privée désarme la frustration. Le patient comprend. L'avis négatif n'est jamais posté." },
     ]
   },
   'reputo-ophtalmo': {
-    title: "Reputo pour ophtalmologues : cas concret",
+    title: "Avis Google pour ophtalmologue : gérer l'attente et protéger une réputation d'excellence",
     tag: 'Ophtalmologues', category: 'professions',
-    meta: "Comment un cabinet d'ophtalmologie a transformé ses longs délais d'attente en avantage avec les avis Google.",
-    intro: "En ophtalmologie, les délais d'attente sont longs (souvent 3 à 6 mois). Cela génère des frustrations — et des risques d'avis négatifs. Reputo permet de capter les avis des patients satisfaits et de gérer les mécontents en privé.",
+    meta: "4 201 ophtalmologues pour 67 millions de Français. Comment les spécialistes les plus sollicités gèrent leur réputation Google malgré les délais d'attente.",
+    intro: "Marc attend depuis 4 mois son rendez-vous chez l'ophtalmologue. Quand il arrive enfin, il patiente 1h45 en salle d'attente. Il voit le médecin pendant 8 minutes. La consultation est excellente, le diagnostic précis, le traitement adapté. Mais ce soir, rentré chez lui, il ouvre Google et laisse 2 étoiles : 'Attente interminable, expédié en 8 minutes.' L'ophtalmologue ne peut pas répondre. Elle a reçu ce message 100 fois. Elle ne sait plus quoi faire.",
     casStudy: {
-      who: "Un ophtalmologue libéral, cabinet de groupe, 35 consultations/jour",
-      before: "18 avis, note 3,2/5 (principalement liés aux délais d'attente pour RDV)",
-      after: "95 avis en 2 mois, note 4,5/5",
+      who: "Cabinet d'ophtalmologie, ville de 200 000 habitants, 1 praticien + 1 orthoptiste",
+      before: "22 avis, note 3,8/5, majorité d'avis négatifs sur l'attente",
+      after: "116 avis, note 4,5/5, les avis sur l'attente noyés dans les témoignages d'excellence clinique",
     },
     content: [
-      { h2: "Le problème des avis liés aux délais", p: "Les avis négatifs du Ce praticien ne portaient pas sur la qualité des soins — unanimement saluée — mais sur les délais pour obtenir un rendez-vous. Ces avis étaient injustes mais indélogeables. La note 3,2/5 nuisait à l'image du cabinet alors que les patients consultés étaient très satisfaits." },
-      { h2: "La stratégie de rééquilibrage", p: "En utilisant Reputo systématiquement après chaque consultation, le Ce praticien a collecté en 2 mois autant d'avis que pendant les 5 années précédentes. Les patients satisfaits par la consultation — la grande majorité — ont massivement noté 5 étoiles. Les rares mécontents (souvent encore frustrés par le délai initial) ont envoyé leur retour en privé." },
-      { h2: "Comment ont été gérés les retours négatifs", p: "12 patients sur 95 ont laissé une note de 3 étoiles ou moins. Dans 9 cas sur 12, le motif était le délai d'attente pour le premier rendez-vous — pas la consultation elle-même. Le Ce praticien a répondu personnellement, a expliqué la situation et proposé d'être rappelé en priorité pour le prochain contrôle. 8 de ces patients ont re-noté positivement." },
-      { h2: "Le résultat", p: "En 2 mois, la note est passée de 3,2 à 4,5/5 avec 95 avis. Le cabinet est maintenant bien positionné sur Google Maps et les nouveaux patients s'inscrivent sur liste d'attente en comprenant mieux le contexte." },
+      { h2: "4 201 ophtalmologues pour 67 millions de Français", p: "L'ophtalmologie est la spécialité médicale par excellence où la demande excède massivement l'offre. Avec 4 201 praticiens libéraux et un revenu net moyen de 200 958 € en 2023 — l'une des spécialités les plus lucratives — les ophtalmologues sont dans une position paradoxale : débordés, rentables, mais exposés à une réputation numérique désastreuse à cause de délais sur lesquels ils n'ont aucun contrôle." },
+      { h2: "Le piège de l'attente : quand la demande crée les mauvais avis", p: "Les délais de rendez-vous en ophtalmologie atteignent parfois 6 à 12 mois en zone sous-dotée. En salle d'attente, le retard peut dépasser 2 heures les jours chargés. Le patient qui arrive frustré après 4 mois d'attente et repart après une consultation de 8 minutes — techniquement parfaite — vit une expérience globale négative. Il laisse un avis 1 étoile. Le praticien ne peut pas expliquer publiquement pourquoi la consultation a duré 8 minutes sans divulguer des informations cliniques." },
+      { h2: "La stratégie du volume : noyer les avis d'attente dans l'excellence clinique", p: "La solution n'est pas de supprimer les avis sur l'attente — c'est impossible. Elle est de les rendre statistiquement négligeables. Un cabinet qui collecte 10 avis par semaine via Reputo accumule 40 avis par mois. Les patients qui ont bénéficié d'un diagnostic précis, d'une chirurgie réussie, d'une prescription qui a changé leur vie — ils existent, ils sont nombreux. Ils ne laissent jamais d'avis spontanément. Un SMS suffit à les activer." },
+      { h2: "Le filtre post-opératoire : protéger la réputation chirurgicale", p: "Les actes chirurgicaux en ophtalmologie (chirurgie réfractive, cataracte, etc.) nécessitent une période de récupération. Un patient qui évalue son expérience à J+2 d'une chirurgie — quand sa vision est encore floue — peut laisser un avis catastrophique qui ne reflète pas le résultat final à J+30. Reputo permet de paramétrer l'envoi du SMS à J+15 pour les actes chirurgicaux, capturant l'avis au moment où le résultat est visible." },
+      { h2: "Rentabiliser un investissement matériel de 300 000 €", p: "Un ophtalmologue qui investit dans un laser ou un OCT de dernière génération le fait pour ses patients. Mais comment le communiquer sans publicité commerciale contraire à la déontologie ? Les avis Google sont la réponse : 'Équipement impressionnant', 'Diagnostic très précis grâce à l'imagerie', 'Médecin à la pointe de la technologie'. Ces témoignages authentiques sont le meilleur retour sur investissement d'un équipement à 300 000 €." },
     ]
   },
   'reputo-psychologue': {
-    title: "Reputo pour psychologues : cas concret",
+    title: "Avis Google pour psychologue libéral : construire la confiance avant le premier rendez-vous",
     tag: 'Psychologues', category: 'professions',
-    meta: "Comment un psychologue libéral peut développer sa réputation en ligne tout en respectant la confidentialité de ses patients.",
-    intro: "La psychologie est une discipline où la confidentialité est absolue. Pourtant, une présence en ligne solide est essentielle pour développer sa patientèle. Reputo permet de concilier les deux.",
+    meta: "77 000 psychologues en France. Le choix d'un psy est l'un des plus intimes qui soit — et il se fait de plus en plus sur Google. Voici comment protéger et développer votre réputation.",
+    intro: "Emma cherche un psychologue depuis 3 semaines. Elle n'en a jamais vu. Elle a peur. Elle tape 'psychologue TCC Paris' sur Google. Elle lit chaque avis avec attention. Elle cherche des signes : quelqu'un qui écoute vraiment, qui ne juge pas, qui est accessible. Elle trouve un cabinet avec 43 avis. L'un d'eux dit : 'Première séance difficile mais je me suis senti écouté sans jugement.' Elle prend rendez-vous. Ce praticien ne savait pas qu'un SMS envoyé il y a 3 mois venait de lui faire gagner une nouvelle patiente.",
     casStudy: {
-      who: "Un psychologue clinicien parisien, cabinet individuel, 8 consultations/jour",
-      before: "Aucune présence Google, acquisition uniquement par bouche-à-oreille",
-      after: "38 avis en 3 mois, note 4,9/5, nouvelles demandes augmentées de 60%",
+      who: "Psychologue libéral spécialisé TCC, cabinet individuel",
+      before: "7 avis, note 4,3/5, patientèle stable mais peu de nouveaux patients",
+      after: "52 avis, note 4,8/5, liste d'attente de 6 semaines",
     },
     content: [
-      { h2: "La particularité de la confidentialité en psychologie", p: "Ce praticien avait une crainte légitime : ses patients pourraient ne pas souhaiter qu'on sache qu'ils consultent un psychologue. C'est pourquoi il a choisi la formule de salutation générique dans Reputo (\"Bonjour,\" sans prénom) et un SMS neutre. Les patients choisissent librement de laisser ou non un avis." },
-      { h2: "Le contenu des avis — et ce qu'on n'y trouve pas", p: "Les avis laissés par ses patients ne mentionnent jamais de motif de consultation. Ils parlent de l'accueil, de l'écoute, de la qualité de la relation thérapeutique, du cabinet agréable. Ces avis sont à la fois utiles pour Google et respectueux de la confidentialité. Il les relit et les trouve souvent émouvants." },
-      { h2: "L'impact sur les nouvelles demandes", p: "Avant Reputo, Il dépendait exclusivement du bouche-à-oreille et des prescriptions de médecins. En 3 mois, il a reçu 38 avis et ses nouvelles demandes de consultation ont augmenté de 60%. Des patients qui ne l'auraient jamais connu l'ont trouvé via Google Maps." },
-      { h2: "La gestion du temps", p: "Il utilise Reputo après ses 8 consultations journalières. Sa secrétaire envoie les SMS en fin de journée uniquement aux patients qui ont explicitement consenti à être recontactés (consentement intégré dans ses formulaires d'accueil). Cela représente environ 5 à 6 SMS par jour — soit 30 secondes de travail." },
-    ]
-  },
-  'reputo-orl': {
-    title: "Reputo pour ORL : cas concret",
-    tag: 'ORL', category: 'professions',
-    meta: "Comment un cabinet ORL a utilisé Reputo pour améliorer sa visibilité Google et attirer plus de nouveaux patients.",
-    intro: "L'ORL libéral reçoit des patients pour des actes variés (consultations, audiométrie, pose d'aérateurs...). La qualité perçue est souvent excellente — mais rarement exprimée en ligne sans un déclencheur.",
-    casStudy: {
-      who: "Un ORL libéral, cabinet solo, 25 consultations/jour",
-      before: "9 avis Google, note 4,3/5",
-      after: "78 avis en 2 mois, note 4,8/5, +55% de nouveaux patients",
-    },
-    content: [
-      { h2: "La satisfaction silencieuse des patients ORL", p: "Les patients de Dr. Leroy étaient très satisfaits — mais ne pensaient pas spontanément à laisser un avis. La consultation ORL est souvent vécue comme un acte technique efficace, pas comme une expérience mémorable. Sans déclencheur, les patients oublient simplement d'écrire." },
-      { h2: "Le déclencheur au bon moment", p: "Reputo envoie le SMS dans l'heure qui suit la consultation — quand le patient sort soulagé de son cabinet, son problème résolu. C'est le moment idéal. Le Ce praticien a configuré un message simple : \"Bonjour {PRENOM}, j'espère que vous allez mieux suite à votre consultation. Votre avis m'aide à améliorer mon cabinet : {FEEDBACK_URL} — Dr. Leroy\"" },
-      { h2: "Les résultats spécifiques à l'ORL", p: "Les avis mentionnent souvent la qualité des explications données sur les diagnostics, la rapidité des soins, et la disponibilité pour les urgences (otites, vertiges). Ces éléments spécifiques améliorent le référencement naturel du cabinet sur des requêtes comme \"ORL urgence Bordeaux\" ou \"ORL enfant Bordeaux\"." },
-      { h2: "L'impact sur le cabinet", p: "En 2 mois, 78 avis collectés, note à 4,8/5. Le cabinet est passé de la 8e à la 2e position sur Google Maps pour \"ORL Bordeaux\". Le Ce praticien a dû allonger ses horaires pour faire face à la demande croissante." },
+      { h2: "77 000 psychologues et une demande qui explose depuis 2020", p: "La crise sanitaire a fait exploser la demande en santé mentale. On compte 77 000 psychologues en France en 2024, mais leur répartition inégale et les délais de prise en charge restent problématiques. Le principal frein à la consultation reste le coût — les psychologues ne sont remboursés que partiellement et sous conditions — et la méconnaissance du métier. Dans ce contexte, la réputation numérique est le premier filtre que le patient applique." },
+      { h2: "Le phénomène du transfert et les avis injustes", p: "La psychologie a une spécificité unique dans la réputation numérique : le transfert. Ce mécanisme psychologique fait qu'un patient peut, en plein processus thérapeutique, projeter une frustration ou une colère sur son thérapeute. Une séance particulièrement difficile peut provoquer un avis négatif injuste ('manque d'empathie', 'technique froide') qui fait pourtant partie du processus de guérison. Le psychologue ne peut ni répondre avec des éléments cliniques, ni ignorer cet avis. La seule protection est d'avoir un volume d'avis positifs suffisant pour relativiser l'impact des avis en crise." },
+      { h2: "Le choix intime : ce que les patients cherchent dans les avis", p: "Les patients qui cherchent un psychologue lisent les avis différemment des patients qui cherchent un dentiste. Ils ne cherchent pas l'efficacité technique — ils cherchent la chaleur humaine, la sécurité émotionnelle, le non-jugement. Les avis les plus convertissants sont ceux qui parlent de l'ambiance ('cabinet apaisant'), de l'écoute ('se sent vraiment compris'), de la progression ('a changé ma façon de voir les choses'). Ces témoignages sont impossibles à fabriquer — ils viennent uniquement de vrais patients." },
+      { h2: "La spécialisation comme différenciation : TCC, EMDR, enfants, couples", p: "La concurrence entre psychologues libéraux est forte. Se spécialiser — TCC, EMDR, thérapie familiale, psychologie de l'enfant — est la meilleure stratégie de différenciation. Et les avis Google reflètent cette spécialisation : quand les patients mentionnent 'EMDR pour traumatismes' ou 'thérapie de couple très utile', ces mots-clés améliorent le référencement local sur ces requêtes spécifiques." },
+      { h2: "Envoyer le SMS au bon moment : après une séance de soutien, pas après une séance de crise", p: "La temporalité est cruciale en psychologie. Reputo permet de choisir manuellement d'envoyer ou non le SMS après chaque consultation. Une séance de crise, un moment émotionnellement intense, ne sont pas les bons moments pour demander un avis. Un suivi de longue durée qui arrive à son terme, une séance particulièrement positive — voilà les moments idéaux pour activer la collecte." },
     ]
   },
   'reputo-pharmacien': {
-    title: "Reputo pour pharmaciens : cas concret",
+    title: "Avis Google pour pharmacien : transformer les ruptures de stock en preuves de service",
     tag: 'Pharmaciens', category: 'professions',
-    meta: "Comment une pharmacie indépendante a utilisé les avis Google pour résister à la concurrence des grandes enseignes.",
-    intro: "La pharmacie indépendante fait face à une concurrence accrue des grandes enseignes et des pharmacies en ligne. Les avis Google sont devenus un outil de différenciation essentiel pour mettre en avant le service personnalisé.",
+    meta: "74 600 pharmaciens, 6,9 procédures collectives pour 1 000 officines en 2024. Comment les pharmacies indépendantes survivent grâce à leur réputation numérique face aux géants du secteur.",
+    intro: "Sandrine entre dans sa pharmacie habituelle pour récupérer son traitement mensuel. Le médicament est en rupture. Le pharmacien ne peut rien y faire — c'est une pénurie nationale qui touche 1 450 références. Sandrine est frustrée. Elle rentre chez elle. Elle ouvre Google. Elle laisse un avis 2 étoiles : 'N'ont jamais rien en stock.' La pharmacie a perdu un client potentiel supplémentaire à cause d'une situation sur laquelle elle n'avait aucun contrôle.",
     casStudy: {
-      who: "Une pharmacie indépendante en ville moyenne (35 000 habitants), 3 pharmaciens",
-      before: "15 avis, note 3,8/5, 2 grandes enseignes concurrentes mieux notées",
-      after: "103 avis en 3 mois, note 4,9/5, meilleure note de la ville",
+      who: "Pharmacie de quartier indépendante, ville moyenne, 2 pharmaciens",
+      before: "19 avis, note 3,9/5, plusieurs avis sur les ruptures de stock",
+      after: "104 avis, note 4,7/5, les avis ruptures noyés dans les témoignages de service",
     },
     content: [
-      { h2: "La concurrence des grandes enseignes", p: "Cette pharmacie était connue pour son service personnalisé et ses conseils de qualité. Mais ses concurrents directs — une grande enseigne et une pharmacie de centre commercial — avaient respectivement 180 et 220 avis sur Google. La pharmacie indépendante semblait moins légitime, malgré une qualité de service objectivement supérieure." },
-      { h2: "L'utilisation adaptée à la pharmacie", p: "Le praticien a intégré Reputo dans son workflow de délivrance : pour les ordonnances chroniques et les patients suivis régulièrement, l'équipe envoie un SMS après chaque renouvellement mensuel. Pour les nouvelles ordonnances complexes (oncologie, maladies chroniques), le SMS est envoyé 3 jours après pour laisser le temps au patient de constater l'efficacité du traitement." },
-      { h2: "Les avis qui font la différence", p: "Les patients de la Pharmacie Centrale décrivent dans leurs avis des choses qu'on ne trouve pas dans les grandes enseignes : \"Le pharmacien m'a appelé pour vérifier comment je tolérais mon nouveau traitement\", \"Ils ont commandé spécialement le médicament introuvable ailleurs\". Ces avis qualitatifs attirent exactement le type de patients fidèles que la pharmacie recherche." },
-      { h2: "Le résultat concurrentiel", p: "En 3 mois, 103 avis et note 4,9/5 — la meilleure note de la ville, devant toutes les concurrentes. Le chiffre d'affaires a augmenté de 18% en 6 mois, principalement grâce à de nouveaux patients attirés par les avis." },
+      { h2: "74 600 pharmaciens et un modèle économique sous pression", p: "La pharmacie d'officine traverse une mutation profonde. 74 600 pharmaciens sont en activité en 2025, mais le réseau fragilise : 6,9 procédures collectives pour 1 000 officines en 2024, contre 4,8 en 2023. La rentabilité baisse (-1 point de marge brute en 2023), contraignant les pharmaciens à multiplier les services à valeur ajoutée : vaccination, tests TROD, entretiens pharmaceutiques, téléconsultation (22 % des pharmacies). Dans ce contexte, l'image est devenue un actif stratégique." },
+      { h2: "Les ruptures de stock : 1 450 références et des avis injustes", p: "Fin 2023, 1 450 références médicamenteuses étaient en rupture de stock en France. Ces pénuries — liées à des problèmes de production mondiale — génèrent des avis négatifs que les pharmaciens ne méritent pas. 'N'ont jamais rien en stock', 'Incompétents'. Le pharmacien ne peut pas répondre en expliquant la nature systémique de la pénurie sans paraître se défausser. La seule réponse efficace est de noyer ces avis injustes dans un volume massif d'avis positifs sur la qualité du service." },
+      { h2: "Le pharmacien-soignant : une révolution de 2 ans que le public ne connaît pas encore", p: "Le rôle du pharmacien a été profondément transformé. Vaccination, dépistage, suivi des malades chroniques, accompagnement des femmes enceintes : la pharmacie est devenue un vrai centre de santé de proximité. Mais le grand public ne le sait pas encore. Les avis Google sont le meilleur canal pour communiquer cette transformation : 'M'a vacciné contre la grippe sans RDV en 5 minutes', 'Conseil très complet sur mon traitement chronique'." },
+      { h2: "Battre les parapharmacies en ligne sur la confiance", p: "Les sites de vente en ligne de parapharmacie ont les prix. Les grandes officines de centre-ville ont le volume. La pharmacie de quartier indépendante a quelque chose qu'ils ne peuvent pas répliquer : la relation de confiance, le conseil personnalisé, la continuité du suivi. 72 % des patients lisent les avis avant de choisir. Un pharmacien avec 104 avis qui parlent de 'conseil personnalisé', 'd'écoute', de 'professionnel compétent' a un avantage concurrentiel que le meilleur prix du monde ne peut pas acheter." },
+      { h2: "Le moment parfait pour le SMS : après la délivrance d'un conseil", p: "Le pharmacien interagit avec ses clients quotidiennement. Mais tous les contacts ne sont pas propices à la collecte d'avis. Un client qui récupère rapidement son ordonnance habituelle est moins susceptible de laisser un avis qu'un client qui a reçu un conseil approfondi sur une interaction médicamenteuse ou qui a bénéficié d'une consultation de suivi. Reputo permet de cibler les contacts à fort potentiel d'avis." },
     ]
   },
   'reputo-opticien': {
-    title: "Reputo pour opticiens indépendants : cas concret",
+    title: "Avis Google pour opticien indépendant : atteindre le 5/5 dans un marché dominé par les grandes enseignes",
     tag: 'Opticiens', category: 'professions',
-    meta: "Comment un opticien indépendant concurrence les grandes enseignes grâce aux avis Google avec Reputo.",
-    intro: "L'opticien indépendant fait face à une concurrence féroce des grandes enseignes (Optical Center, Krys, Afflelou...) qui disposent de budgets marketing importants. Les avis Google permettent de remettre à égalité.",
+    meta: "8,12 milliards d'euros, 44 238 opticiens, notes Google à 4,8/5 pour Krys et Atol. Comment les opticiens indépendants peuvent gagner la guerre de la réputation numérique.",
+    intro: "Nicolas doit renouveler ses lunettes. Il ouvre Google Maps, tape 'opticien'. Il voit Krys (4,8/5 - 312 avis), Atol (4,9/5 - 267 avis), et Lunettes Michaud, indépendant (4,2/5 - 14 avis). Pourtant, M. Michaud a 22 ans d'expérience, les meilleurs verres progressifs de la ville, et connaît chaque client par son nom. Mais personne ne le sait. Ses 14 avis ne parlent pas de ça.",
     casStudy: {
-      who: "Un opticien indépendant en ville moyenne, opticien indépendant",
-      before: "22 avis, note 4,2/5, entouré de 4 enseignes nationales",
-      after: "156 avis en 4 mois, note 4,9/5, meilleure note de la ville",
+      who: "Opticien indépendant, zone commerciale, 1 optométriste + 1 vendeur",
+      before: "14 avis, note 4,2/5, invisible face aux grandes enseignes",
+      after: "189 avis, note 4,9/5, 1re position locale, CA parapharmacie +35 %",
     },
     content: [
-      { h2: "Le défi de l'indépendant face aux enseignes", p: "Cet opticien avait une réputation locale excellente — mais invisible sur Google. Face à 4 enseignes nationales ayant des centaines d'avis, le magasin indépendant semblait peu crédible en ligne malgré 20 ans d'expertise et une clientèle fidèle." },
-      { h2: "Le workflow adapté à l'optique", p: "L'opticien a configuré deux types d'envois : un SMS lors du retrait des lunettes (\"Comment vous sentez-vous avec vos nouvelles lunettes ?\") et un second 15 jours après pour les lentilles ou les verres progressifs — quand le patient a eu le temps de s'adapter. Ce double envoi produit des avis plus détaillés et plus positifs." },
-      { h2: "Ce que disent les avis", p: "Les clients de l'Optique du Centre mentionnent systématiquement le temps consacré à l'essayage, l'expertise dans le choix des montures, et le suivi post-vente. Ces éléments différencient clairement l'indépendant des enseignes et répondent directement aux critères de choix des consommateurs." },
-      { h2: "Le retour sur investissement", p: "156 avis à 4,9/5 ont propulsé l'Optique du Centre en première position sur Google Maps, devant toutes les enseignes. Le gérant estime que 30 à 40 nouveaux clients par mois ont choisi son magasin en raison des avis Google. À 300€ de panier moyen, cela représente 9 000 à 12 000€ de CA supplémentaire mensuel." },
+      { h2: "8 milliards d'euros et une guerre de notes Google", p: "Le marché de l'optique représente 8,12 milliards d'euros en France, dominé à 75 % par les grandes enseignes (Optic 2000, Krys, Atol, Afflelou). Ces enseignes ont des budgets marketing, des logiciels de collecte d'avis intégrés, et des systèmes automatisés. Le résultat : elles affichent des notes de 4,8 à 4,9/5 avec des centaines d'avis. Les indépendants, avec 14 avis en moyenne, sont écrasés — pas parce qu'ils sont moins bons, mais parce qu'ils ne collectent pas." },
+      { h2: "Le cycle de 2,5 ans : le client fantôme", p: "La fréquence de renouvellement des lunettes est de 2,5 ans en moyenne. Un client satisfait de ses lunettes ne pense pas à son opticien entre deux achats. Il ne laisse pas d'avis spontanément. Mais quand il retourne sur Google pour chercher un nouveau modèle ou recommander quelqu'un, il ne retrouve pas facilement 'son' opticien si la fiche n'est pas mise à jour. Un SMS envoyé 3 semaines après la délivrance des lunettes — quand le client est en pleine lune de miel avec ses nouvelles montures — crée un avis authentique et un lien émotionnel positif avec la boutique." },
+      { h2: "100 % Santé et la perception de choix limité", p: "La réforme 100 % Santé a complexifié la relation client. Certains patients se sentent 'orientés vers le bas de gamme' dans l'offre sans reste à charge. Ces frustrations peuvent générer des avis négatifs qui ont peu à voir avec la qualité du service. La réponse est de collecter massivement des avis sur l'expertise optométrique, la qualité des conseils et la durabilité des équipements — des valeurs qui transcendent la question du prix." },
+      { h2: "Le SAV comme machine à avis 5 étoiles", p: "Une monture cassée réparée gratuitement, des verres mal adaptés replacés sans discussion, un client qui repart avec la même satisfaction qu'à l'achat — voilà les moments qui génèrent les avis les plus enthousiastes. 'M'a réparé ma monture en 10 minutes sans frais', 'A refait les verres parce que l'adaptation n'était pas parfaite'. Ces avis valent de l'or. Reputo permet de les capturer systématiquement après chaque interaction SAV." },
+      { h2: "Les verres premium : votre expertise mérite d'être connue", p: "Le marché se déplace vers les verres haut de gamme (progressifs premium, anti-lumière bleue, photochromiques). La marge sur ces produits est significativement supérieure. Les clients qui investissent 600 ou 800 € dans des verres premium sont aussi les plus susceptibles de laisser des avis détaillés sur l'expertise de l'optométriste, la qualité de la mesure réfractive, le confort visuel. Ces avis attirent d'autres clients du même profil. C'est un cercle vertueux que seule la collecte systématique peut activer." },
     ]
   },
 };
 
-export function generateStaticParams() {
+const PROFESSIONS_ARTICLES = [
+  'reputo-medecin-generaliste',
+  'reputo-dentiste',
+  'reputo-kinesitherapeute',
+  'reputo-osteopathe',
+  'reputo-infirmier-liberal',
+  'reputo-ophtalmo',
+  'reputo-psychologue',
+  'reputo-pharmacien',
+  'reputo-opticien',
+];
+
+export async function generateStaticParams() {
   return Object.keys(articles).map(slug => ({ slug }));
 }
 
-export async function generateMetadata({ params }) {
-  const { slug } = await params;
-  const a = articles[slug];
-  if (!a) return {};
+export function generateMetadata({ params }) {
+  const a = articles[params.slug];
+  if (!a) return { title: 'Article non trouvé' };
   return {
-    title: `${a.title} | Reputo`,
+    title: a.title + ' | Blog Reputo',
     description: a.meta,
+    openGraph: { title: a.title, description: a.meta },
   };
 }
 
-export default async function ArticlePage({ params }) {
-  const { slug } = await params;
-  const a = articles[slug];
-  if (!a) return <div style={{padding:'80px', textAlign:'center', color:'var(--muted)'}}>Article non trouvé</div>;
+export default function ArticlePage({ params }) {
+  const a = articles[params.slug];
+  if (!a) return <div className={styles.notFound}><h1>Article non trouvé</h1><a href="/blog">← Retour au blog</a></div>;
+
+  const isProfession = PROFESSIONS_ARTICLES.includes(params.slug);
 
   return (
-    <main>
-      <nav className={styles.nav}>
-        <a href="/" className={styles.logo}><span className={styles.logoMark}>R</span>Reputo</a>
+    <div className={styles.articlePage}>
+      <header className={styles.articleHeader}>
         <a href="/blog" className={styles.back}>← Blog</a>
-      </nav>
-      <div style={{maxWidth:'720px', margin:'0 auto', padding:'64px 24px'}}>
-        <span className={styles.tag} style={{marginBottom:'16px', display:'inline-block'}}>{a.tag}</span>
-        <h1 style={{fontFamily:'var(--font-display)', fontSize:'clamp(26px,3.5vw,36px)', fontWeight:800, letterSpacing:'-0.5px', lineHeight:1.15, marginBottom:'20px', color:'var(--text)'}}>
-          {a.title}
-        </h1>
+        <span className={styles.articleTag}>{a.tag}</span>
+        <h1 className={styles.articleTitle}>{a.title}</h1>
+        <p className={styles.articleMeta}>{a.meta}</p>
+      </header>
 
-        {a.intro && (
-          <p style={{fontSize:'16px', color:'var(--muted)', lineHeight:1.7, marginBottom:'32px', borderLeft:'3px solid var(--blue)', paddingLeft:'16px'}}>
-            {a.intro}
-          </p>
+      <article className={styles.articleBody}>
+
+        {isProfession && a.intro && (
+          <div className={styles.intro}>
+            <p>{a.intro}</p>
+          </div>
         )}
 
-        {a.casStudy && (
-          <div style={{background:'var(--blue-dim)', border:'1px solid var(--blue-light)', borderRadius:'var(--radius-xl)', padding:'24px', marginBottom:'36px'}}>
-            <div style={{fontSize:'11px', fontWeight:700, textTransform:'uppercase', letterSpacing:'1px', color:'var(--blue)', marginBottom:'12px'}}>Cas concret</div>
-            <div style={{display:'flex', flexDirection:'column', gap:'8px'}}>
-              {[
-                ['Profil', a.casStudy.who],
-                ['Avant Reputo', a.casStudy.before],
-                ['Après Reputo', a.casStudy.after],
-              ].map(([label, value]) => (
-                <div key={label} style={{display:'flex', gap:'12px', fontSize:'13px'}}>
-                  <span style={{color:'#1D4ED8', fontWeight:600, minWidth:'120px', flexShrink:0}}>{label}</span>
-                  <span style={{color:'#1E3A8A'}}>{value}</span>
-                </div>
-              ))}
+        {isProfession && a.casStudy && (
+          <div className={styles.casStudy}>
+            <div className={styles.casStudyTitle}>Cas concret</div>
+            <div className={styles.casStudyGrid}>
+              <div><span className={styles.casLabel}>Cabinet</span><span>{a.casStudy.who}</span></div>
+              <div><span className={styles.casLabel}>Avant Reputo</span><span className={styles.casBefore}>{a.casStudy.before}</span></div>
+              <div><span className={styles.casLabel}>Après Reputo</span><span className={styles.casAfter}>{a.casStudy.after}</span></div>
             </div>
           </div>
         )}
 
         {a.content.map((block, i) => (
-          <div key={i} style={{marginBottom:'28px'}}>
-            <h2 style={{fontFamily:'var(--font-display)', fontSize:'20px', fontWeight:700, marginBottom:'10px', color:'var(--text)'}}>{block.h2}</h2>
-            <p style={{fontSize:'15px', color:'var(--muted)', lineHeight:1.75}}>{block.p}</p>
+          <div key={i} className={styles.block}>
+            {block.h2 && <h2 className={styles.blockTitle}>{block.h2}</h2>}
+            {block.p && <p className={styles.blockText}>{block.p}</p>}
           </div>
         ))}
 
-        <div style={{marginTop:'56px', background:'var(--blue-dim)', border:'1px solid var(--blue-light)', borderRadius:'var(--radius-xl)', padding:'32px', textAlign:'center'}}>
-          <h3 style={{fontFamily:'var(--font-display)', fontSize:'20px', fontWeight:700, marginBottom:'8px'}}>Prêt à tester Reputo ?</h3>
-          <p style={{color:'var(--muted)', fontSize:'14px', marginBottom:'20px'}}>5 SMS offerts à l'inscription. Aucun abonnement. Résultats en 48h.</p>
-          <a href="/#tarifs" className="btn-primary" style={{padding:'12px 24px'}}>Commencer gratuitement →</a>
+        <div className={styles.articleCta}>
+          <h3>Commencez à collecter des avis Google automatiquement</h3>
+          <p>5 SMS offerts à l'inscription. Aucun abonnement, aucun engagement.</p>
+          <a href="/register" className="btn-primary">Essayer gratuitement →</a>
         </div>
-      </div>
-    </main>
+      </article>
+    </div>
   );
 }
