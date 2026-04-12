@@ -6,9 +6,9 @@ export const metadata = {
 };
 
 const general = [
-  { slug: 'avis-google-medecin',       title: "Comment obtenir plus d'avis Google pour son cabinet médical",           desc: "Guide complet pour collecter des avis Google automatiquement après chaque consultation.", tag: 'Médecins' },
-  { slug: 'avis-google-dentiste',       title: "Avis Google pour cabinet dentaire : le guide 2026",                    desc: "Stratégie complète pour les dentistes malgré les contraintes déontologiques.", tag: 'Dentistes' },
-  { slug: 'gerer-avis-negatif-google',  title: "Comment gérer un avis Google négatif en professionnel de santé",       desc: "Filtrez les avis négatifs avant publication et transformez les insatisfaits.", tag: 'E-réputation' },
+  { slug: 'avis-google-sante',       title: "Avis Google et professionnels de santé : ce que disent les chiffres 2025",           desc: "Guide complet pour collecter des avis Google automatiquement après chaque consultation.", tag: 'Médecins' },
+  { slug: 'comment-collecter-avis-google-cabinet',       title: "Comment collecter des avis Google pour votre cabinet : le guide complet 2025",                    desc: "Stratégie complète pour les dentistes malgré les contraintes déontologiques.", tag: 'Dentistes' },
+  { slug: 'secret-medical-avis-google',  title: "Secret médical et avis Google : comment se protéger légalement",       desc: "Filtrez les avis négatifs avant publication et transformez les insatisfaits.", tag: 'E-réputation' },
 ];
 
 const professions = [
