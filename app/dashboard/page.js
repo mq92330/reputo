@@ -91,7 +91,7 @@ export default function DashboardPage() {
           <span className={styles.creditsVal} style={{color: (profile?.credits || 0) < 10 ? 'var(--red)' : 'var(--green)'}}>
             {profile?.credits ?? '—'}
           </span>
-          <a href="/tarifs" className="btn-primary" style={{fontSize:'12px', padding:'6px 14px'}}>Recharger</a>
+          <a href={`https://reputo.lemonsqueezy.com/checkout/buy/7ed1f728-a4ef-4713-ac8e-3b2d76584c6f?checkout[email]=${encodeURIComponent(profile?.email || "")}`} className="btn-primary" style={{fontSize:'12px', padding:'6px 14px'}}>Recharger</a>
         </div>
       </div>
 

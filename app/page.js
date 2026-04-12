@@ -222,7 +222,7 @@ export default function LandingPage() {
               <div className={styles.pricingPrice}><span className={styles.pricingCur}>€</span>9<span className={styles.pricingPer}> HT</span></div>
               <div className={styles.pricingCredits}>50 crédits SMS</div>
               <div className={styles.pricingPerSms}>0,18 € / SMS</div>
-              <a href={CHECKOUT_STARTER} className="btn-ghost" style={{width:'100%', textAlign:'center', marginTop:'20px', padding:'11px'}}>
+              <a href={`/login?next=starter`} className="btn-ghost" style={{width:'100%', textAlign:'center', marginTop:'20px', padding:'11px'}}>
                 Commencer →
               </a>
               <div className={styles.pricingFeatures}>
@@ -239,7 +239,7 @@ export default function LandingPage() {
               <div className={styles.pricingPrice}><span className={styles.pricingCur}>€</span>19<span className={styles.pricingPer}> HT</span></div>
               <div className={styles.pricingCredits}>150 crédits SMS</div>
               <div className={styles.pricingPerSms}>0,127 € / SMS</div>
-              <a href={CHECKOUT_PRO} className="btn-primary" style={{width:'100%', textAlign:'center', marginTop:'20px', padding:'11px'}}>
+              <a href={`/login?next=pro`} className="btn-primary" style={{width:'100%', textAlign:'center', marginTop:'20px', padding:'11px'}}>
                 Commencer →
               </a>
               <div className={styles.pricingFeatures}>
