@@ -51,12 +51,11 @@ export default function FeedbackPage() {
 
     setSubmitting(false);
 
+    // Option 1 : tout le monde voit l'invitation Google
+    // Les satisfaits (>= seuil) voient l'invitation en premier plan
+    // Les insatisfaits voient le formulaire privé + lien Google discret
     if (selected >= threshold) {
-      // Redirect to Google
       setStep('good');
-      setTimeout(() => {
-        window.location.href = data?.google_url || 'https://g.page/review';
-      }, 1500);
     } else {
       setStep('bad');
     }

@@ -38,7 +38,7 @@ export default function LandingPage() {
           </h1>
           <p className={styles.heroSub}>
             Après chaque consultation, un SMS invite votre patient à noter son expérience.
-            Les satisfaits vont sur Google. Les insatisfaits vous écrivent en privé.
+            Vos patients satisfaits partagent leur expérience sur Google. Vous recevez aussi les retours privés pour améliorer votre cabinet.
             <br/>Vous contrôlez tout.
           </p>
           <div className={styles.heroCtas}>
@@ -100,7 +100,7 @@ export default function LandingPage() {
             {[
               { n:'01', icon:'📱', title:"Votre assistante saisit le numéro", text:"Après la consultation, elle entre le numéro du patient dans Reputo. 5 secondes. Le SMS part automatiquement avec le nom de votre cabinet." },
               { n:'02', icon:'⭐', title:"Le patient choisit son nombre d'étoiles", text:"Il clique sur le lien, voit une page simple avec 1 à 5 étoiles. Vous définissez le seuil (par défaut 4 étoiles) qui déclenche la redirection Google." },
-              { n:'03', icon:'🔀', title:"Reputo filtre intelligemment", text:"Note ≥ seuil → redirigé vers votre fiche Google pour laisser un avis. Note < seuil → formulaire de feedback privé envoyé directement à vous." },
+              { n:'03', icon:'🔀', title:"Reputo filtre intelligemment", text:"Après la notation, vos patients sont invités à partager leur expérience sur Google. Un formulaire privé permet aussi à chacun de vous envoyer un retour direct." },
             ].map(s => (
               <div key={s.n} className={styles.step}>
                 <div className={styles.stepNum}>{s.n}</div>

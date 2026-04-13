@@ -113,7 +113,7 @@ export default function DashboardPage() {
       {/* SEND SMS */}
       <div className={styles.card}>
         <h2 className={styles.cardTitle}>Envoyer un SMS</h2>
-        <p className={styles.cardSub}>Le patient recevra un lien pour noter sa consultation. Les avis positifs vont sur Google, les négatifs vous reviennent en privé.</p>
+        <p className={styles.cardSub}>Le patient recevra un lien pour noter sa consultation et pourra partager son expérience sur Google.</p>
 
         <form onSubmit={handleSend} className={styles.sendForm}>
           <div className={styles.formRow}>
