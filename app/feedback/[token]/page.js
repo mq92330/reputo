@@ -138,13 +138,20 @@ export default function FeedbackPage() {
           </>
         )}
 
-        {/* STEP: GOOD → REDIRECT */}
+        {/* STEP: GOOD → INVITATION GOOGLE */}
         {step === 'good' && (
           <div className={styles.resultGood}>
             <div className={styles.resultIcon}>🎉</div>
             <h2>Merci pour votre retour !</h2>
-            <p>Vous allez être redirigé vers Google pour laisser votre avis...</p>
-            <div className={styles.redirectBar}></div>
+            <p>Souhaitez-vous partager votre expérience sur Google pour aider d'autres patients a trouver ce cabinet ?</p>
+            <a href={data?.google_url || 'https://g.page/review'} className="btn-primary"
+               style={{ display:'block', textAlign:'center', padding:'13px', marginTop:'16px', fontSize:'15px', textDecoration:'none' }}>
+              Partager sur Google →
+            </a>
+            <button onClick={() => setStep('done')}
+               style={{ background:'none', border:'none', color:'var(--muted)', fontSize:'13px', marginTop:'12px', cursor:'pointer', width:'100%' }}>
+              Non merci
+            </button>
           </div>
         )}
 
@@ -173,6 +180,13 @@ export default function FeedbackPage() {
             >
               {submitting ? 'Envoi...' : 'Envoyer mon feedback →'}
             </button>
+            <p style={{ textAlign:'center', marginTop:'14px', fontSize:'12px', color:'var(--muted)' }}>
+              Vous pouvez aussi{' '}
+              <a href={data?.google_url || 'https://g.page/review'} style={{ color:'var(--blue)' }}>
+                laisser un avis public sur Google
+              </a>
+              {' '}si vous le souhaitez.
+            </p>
           </>
         )}
 
