@@ -1,8 +1,8 @@
 'use client';
 import styles from './page.module.css';
 
-const CHECKOUT_STARTER = 'https://votre-store.lemonsqueezy.com/checkout/buy/STARTER_ID';
-const CHECKOUT_PRO = 'https://votre-store.lemonsqueezy.com/checkout/buy/PRO_ID';
+const CHECKOUT_STARTER = 'https://reputo.lemonsqueezy.com/checkout/buy/7ed1f728-a4ef-4713-ac8e-3b2d76584c6f';
+const CHECKOUT_PRO = 'https://reputo.lemonsqueezy.com/checkout/buy/6bdc3669-46ab-4da3-9029-da11216e7ea9';
 
 export default function LandingPage() {
   return (
@@ -21,7 +21,7 @@ export default function LandingPage() {
         </div>
         <div className={styles.navActions}>
           <a href="/login" className="btn-ghost" style={{padding:'8px 16px', fontSize:'13px'}}>Connexion</a>
-          <a href={CHECKOUT_STARTER} className="btn-primary" style={{padding:'8px 16px', fontSize:'13px'}}>Essai gratuit</a>
+          <a href="/register" className="btn-primary" style={{padding:'8px 16px', fontSize:'13px'}}>Essai gratuit</a>
         </div>
       </nav>
 
@@ -42,7 +42,7 @@ export default function LandingPage() {
             <br/>Vous contrôlez tout.
           </p>
           <div className={styles.heroCtas}>
-            <a href={CHECKOUT_STARTER} className="btn-primary" style={{fontSize:'15px', padding:'13px 28px'}}>
+            <a href="/register" className="btn-primary" style={{fontSize:'15px', padding:'13px 28px'}}>
               Commencer gratuitement →
             </a>
             <a href="#fonctionnement" className="btn-ghost" style={{fontSize:'15px', padding:'13px 24px'}}>
@@ -222,7 +222,7 @@ export default function LandingPage() {
               <div className={styles.pricingPrice}><span className={styles.pricingCur}>€</span>9<span className={styles.pricingPer}> HT</span></div>
               <div className={styles.pricingCredits}>50 crédits SMS</div>
               <div className={styles.pricingPerSms}>0,18 € / SMS</div>
-              <a href={CHECKOUT_STARTER} className="btn-ghost" style={{width:'100%', textAlign:'center', marginTop:'20px', padding:'11px'}}>
+              <a href={CHECKOUT_STARTER} className="btn-primary" style={{width:'100%', textAlign:'center', marginTop:'20px', padding:'11px'}}>
                 Commencer →
               </a>
               <div className={styles.pricingFeatures}>
@@ -288,7 +288,7 @@ export default function LandingPage() {
             5 SMS offerts à l'inscription, sans engagement.
           </p>
           <div style={{display:'flex', gap:'12px', justifyContent:'center', flexWrap:'wrap'}}>
-            <a href={CHECKOUT_STARTER} className="btn-primary" style={{fontSize:'15px', padding:'13px 28px'}}>Commencer gratuitement →</a>
+            <a href="/register" className="btn-primary" style={{fontSize:'15px', padding:'13px 28px'}}>Commencer gratuitement →</a>
             <a href="/contact" className="btn-ghost" style={{fontSize:'15px', padding:'13px 24px'}}>Nous contacter</a>
           </div>
         </div>
