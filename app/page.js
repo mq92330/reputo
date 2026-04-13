@@ -222,7 +222,7 @@ export default function LandingPage() {
               <div className={styles.pricingPrice}><span className={styles.pricingCur}>€</span>9<span className={styles.pricingPer}> HT</span></div>
               <div className={styles.pricingCredits}>50 crédits SMS</div>
               <div className={styles.pricingPerSms}>0,18 € / SMS</div>
-              <a href={CHECKOUT_STARTER} className="btn-primary" style={{width:'100%', textAlign:'center', marginTop:'20px', padding:'11px'}}>
+              <a href={CHECKOUT_STARTER} className="btn-ghost" style={{width:'100%', textAlign:'center', marginTop:'20px', padding:'11px'}}>
                 Commencer →
               </a>
               <div className={styles.pricingFeatures}>
