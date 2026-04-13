@@ -83,11 +83,11 @@ export default function LandingPage() {
         <div className={styles.heroStats}>
           <div className={styles.stat}><strong>+200%</strong><span>d'avis Google en 3 mois</span></div>
           <div className={styles.statDiv}></div>
-          <div className={styles.stat}><strong>+200 avis</strong><span>collectés en moyenne en 3 mois</span></div>
+          <div className={styles.stat}><strong>72 %</strong><span>des patients lisent les avis avant RDV</span></div>
           <div className={styles.statDiv}></div>
           <div className={styles.stat}><strong>5 secondes</strong><span>par patient pour votre équipe</span></div>
           <div className={styles.statDiv}></div>
-          <div className={styles.stat}><strong>525 000</strong><span>professionnels de santé en France</span></div>
+          <div className={styles.stat}><strong>443 000</strong><span>professionnels de santé libéraux</span></div>
         </div>
       </section>
 
@@ -123,7 +123,7 @@ export default function LandingPage() {
                 Votre seuil de filtre,<br/>100% personnalisable
               </h2>
               <p style={{color:'var(--muted)', fontSize:'15px', lineHeight:1.7, marginBottom:'20px'}}>
-                Vous décidez à partir de combien d'étoiles un patient est redirigé vers Google. Par défaut réglé à 4 étoiles — modifiable en un clic dans votre tableau de bord.
+                Vous définissez votre seuil de satisfaction. Les patients au-dessus sont invités à partager sur Google. Tous peuvent aussi vous envoyer un retour privé directement.
               </p>
               <div className={styles.filterExamples}>
                 <div className={styles.filterEx}>
@@ -147,7 +147,7 @@ export default function LandingPage() {
                 </div>
                 <div className={styles.fmNote}>4 étoiles sélectionnées</div>
                 <div className={styles.fmBtn}>Valider →</div>
-                <div className={styles.fmResult}>✓ Merci ! Vous allez être redirigé vers Google</div>
+                <div className={styles.fmResult}>✓ Merci ! Souhaitez-vous partager sur Google ?</div>
               </div>
             </div>
           </div>
@@ -190,7 +190,7 @@ export default function LandingPage() {
           <h2 className={styles.sectionTitle}>Tout ce qu'il vous faut,<br/>rien de superflu</h2>
           <div className={styles.features}>
             {[
-              { icon:'🔀', title:'Filtrage intelligent', text:'Votre seuil d\'étoiles configurable. Les patients insatisfaits ne vont jamais sur Google.' },
+              { icon:'🔀', title:'Satisfaction mesurée', text:'Votre seuil de satisfaction configurable. Les patients satisfaits partagent sur Google, les autres vous envoient un retour privé.' },
               { icon:'📊', title:'Tableau de bord temps réel', text:'Avis collectés, feedbacks reçus, SMS envoyés. Tout en un coup d\'oeil.' },
               { icon:'✏️', title:'SMS personnalisable', text:'Votre message, votre nom de cabinet, votre ton. Modifiable à tout moment.' },
               { icon:'🔒', title:'Conforme RGPD', text:'Aucune donnée médicale collectée. Numéro supprimé après envoi.' },

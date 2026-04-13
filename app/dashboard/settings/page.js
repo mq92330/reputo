@@ -264,7 +264,7 @@ export default function SettingsPage() {
         {/* SEUIL */}
         <div className={styles.card}>
           <h2 className={styles.cardTitle}>Seuil de filtre</h2>
-          <p className={styles.cardSub}>À partir de cette note, le patient est redirigé vers Google. En dessous : feedback privé uniquement.</p>
+          <p className={styles.cardSub}>Les patients au-dessus de ce seuil sont invités à partager sur Google. Tous peuvent aussi vous envoyer un retour privé.</p>
           <div className={styles.thresholdPicker}>
             {[1, 2, 3, 4, 5].map(n => (
               <button key={n} type="button"
@@ -278,12 +278,12 @@ export default function SettingsPage() {
           <div className={styles.threshExplain}>
             <div className={styles.threshRow} style={{ background: '#DCFCE7', borderLeft: '3px solid #059669' }}>
               <span style={{ color: '#166534', fontWeight: 600 }}>≥ {form.star_threshold} ★</span>
-              <span style={{ color: '#166534' }}>→ Redirigé vers Google Reviews</span>
+              <span style={{ color: '#166534' }}>→ Invité à partager sur Google</span>
             </div>
             {form.star_threshold > 1 && (
               <div className={styles.threshRow} style={{ background: '#FFFBEB', borderLeft: '3px solid #D97706' }}>
                 <span style={{ color: '#78350F', fontWeight: 600 }}>&lt; {form.star_threshold} ★</span>
-                <span style={{ color: '#78350F' }}>→ Feedback privé vers vous</span>
+                <span style={{ color: '#78350F' }}>→ Retour privé + option Google</span>
               </div>
             )}
           </div>
