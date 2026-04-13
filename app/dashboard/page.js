@@ -106,7 +106,7 @@ export default function DashboardPage() {
       {/* LOW CREDITS WARNING */}
       {(profile?.credits || 0) < 10 && (
         <div className={styles.warning}>
-          Il vous reste seulement {profile?.credits} crédit(s). <a href="/tarifs" style={{color:'var(--amber)', fontWeight:600}}>Rechargez maintenant →</a>
+          Il vous reste seulement {profile?.credits} crédit(s). <a href={`https://reputo.lemonsqueezy.com/checkout/buy/7ed1f728-a4ef-4713-ac8e-3b2d76584c6f?checkout[email]=${encodeURIComponent(profile?.email || '')}`} style={{color:'var(--amber)', fontWeight:600}}>Rechargez maintenant →</a>
         </div>
       )}
 

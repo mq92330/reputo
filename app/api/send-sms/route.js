@@ -33,6 +33,10 @@ if (!user) return NextResponse.json({ ok: false, error: 'Non autorisé' }, { sta
 
     if (!profile) return NextResponse.json({ ok: false, error: 'Profil introuvable' }, { status: 404 });
 
+    if (!profile.google_review_url) {
+      return NextResponse.json({ ok: false, error: 'Lien Google Reviews non configuré. Rendez-vous dans les Paramètres.' }, { status: 400 });
+    }
+
     if ((profile.credits || 0) <= 0) {
       return NextResponse.json({ ok: false, error: 'Crédits insuffisants. Rechargez votre compte.' }, { status: 402 });
     }
