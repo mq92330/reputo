@@ -99,8 +99,8 @@ export default function LandingPage() {
           <div className={styles.steps}>
             {[
               { n:'01', icon:'📱', title:"Votre assistante saisit le numéro", text:"Après la consultation, elle entre le numéro du patient dans Reputo. 5 secondes. Le SMS part automatiquement avec le nom de votre cabinet." },
-              { n:'02', icon:'⭐', title:"Le patient choisit son nombre d'étoiles", text:"Il clique sur le lien, voit une page simple avec 1 à 5 étoiles. Vous définissez le seuil (par défaut 4 étoiles) qui déclenche la redirection Google." },
-              { n:'03', icon:'🔀', title:"Reputo filtre intelligemment", text:"Après la notation, vos patients sont invités à partager leur expérience sur Google. Un formulaire privé permet aussi à chacun de vous envoyer un retour direct." },
+              { n:'02', icon:'⭐', title:"Le patient choisit son nombre d'étoiles", text:"Il clique sur le lien, voit une page simple avec 1 à 5 étoiles. Vous définissez le seuil (par défaut 4 étoiles) qui déclenche l'invitation à partager sur Google." },
+              { n:'03', icon:'🔀', title:"Reputo oriente intelligemment", text:"Après la notation, vos patients sont invités à partager leur expérience sur Google. Un formulaire privé permet aussi à chacun de vous envoyer un retour direct." },
             ].map(s => (
               <div key={s.n} className={styles.step}>
                 <div className={styles.stepNum}>{s.n}</div>
@@ -120,7 +120,7 @@ export default function LandingPage() {
             <div className={styles.filterLeft}>
               <div className={styles.sectionLabel}>La fonctionnalité clé</div>
               <h2 style={{fontFamily:'var(--font-display)', fontSize:'28px', fontWeight:700, lineHeight:1.2, marginBottom:'16px'}}>
-                Votre seuil de filtre,<br/>100% personnalisable
+                Votre seuil de satisfaction,<br/>100% personnalisable
               </h2>
               <p style={{color:'var(--muted)', fontSize:'15px', lineHeight:1.7, marginBottom:'20px'}}>
                 Vous définissez votre seuil de satisfaction. Les patients au-dessus sont invités à partager sur Google. Tous peuvent aussi vous envoyer un retour privé directement.
@@ -128,11 +128,11 @@ export default function LandingPage() {
               <div className={styles.filterExamples}>
                 <div className={styles.filterEx}>
                   <span className={styles.filterExBadge} style={{background:'#DCFCE7', color:'#166534'}}>≥ 4 étoiles</span>
-                  <span>→ Page Google Reviews</span>
+                  <span>→ Invité à partager sur Google</span>
                 </div>
                 <div className={styles.filterEx}>
                   <span className={styles.filterExBadge} style={{background:'#FEF9C3', color:'#713F12'}}>1-3 étoiles</span>
-                  <span>→ Feedback privé chez vous</span>
+                  <span>→ Retour privé + option Google</span>
                 </div>
               </div>
             </div>
