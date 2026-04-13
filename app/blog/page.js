@@ -8,12 +8,12 @@ export const metadata = {
 const general = [
   { slug: 'avis-google-sante',       title: "Avis Google et professionnels de santé : ce que disent les chiffres 2025",           desc: "Guide complet pour collecter des avis Google automatiquement après chaque consultation.", tag: 'Médecins' },
   { slug: 'comment-collecter-avis-google-cabinet',       title: "Comment collecter des avis Google pour votre cabinet : le guide complet 2025",                    desc: "Stratégie complète pour les dentistes malgré les contraintes déontologiques.", tag: 'Dentistes' },
-  { slug: 'secret-medical-avis-google',  title: "Secret médical et avis Google : comment se protéger légalement",       desc: "Filtrez les avis négatifs avant publication et transformez les insatisfaits.", tag: 'E-réputation' },
+  { slug: 'secret-medical-avis-google',  title: "Secret médical et avis Google : comment se protéger légalement",       desc: "Secret médical et avis Google : la stratégie légale pour protéger votre réputation.", tag: 'E-réputation' },
 ];
 
 const professions = [
   { slug: 'reputo-medecin-generaliste', title: "Médecin généraliste",      desc: "30 consultations/jour → 67 avis en 2 mois. Comment le Dr. Martin a transformé sa réputation.", icon: '👨‍⚕️', stat: '+200% avis' },
-  { slug: 'reputo-dentiste',            title: "Chirurgien-dentiste",       desc: "Zéro avis négatif public en 3 mois. 132 avis à 4,8/5 malgré les contraintes du secret médical.", icon: '🦷', stat: '132 avis' },
+  { slug: 'reputo-dentiste',            title: "Chirurgien-dentiste",       desc: "132 avis à 4,8/5 en 3 mois. Comment ce cabinet dentaire a maîtrisé sa réputation Google.", icon: '🦷', stat: '132 avis' },
   { slug: 'reputo-kinesitherapeute',    title: "Kinésithérapeute",          desc: "Cabinet complet avec liste d'attente. 89 avis en 2,5 mois, première position Google Maps.", icon: '💪', stat: '89 avis' },
   { slug: 'reputo-osteopathe',          title: "Ostéopathe",                desc: "+70% de nouveaux patients en 6 semaines. Comment Reputo génère 1 500€/mois de CA supplémentaire.", icon: '🤲', stat: '+70% patients' },
   { slug: 'reputo-infirmier-liberal',   title: "Infirmier libéral",         desc: "41 avis 5 étoiles pour une IDEL en mobilité. Workflow adapté aux tournées à domicile.", icon: '💉', stat: '41 avis 5★' },

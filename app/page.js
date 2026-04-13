@@ -83,7 +83,7 @@ export default function LandingPage() {
         <div className={styles.heroStats}>
           <div className={styles.stat}><strong>+200%</strong><span>d'avis Google en 3 mois</span></div>
           <div className={styles.statDiv}></div>
-          <div className={styles.stat}><strong>0 avis négatif</strong><span>publié sans votre accord</span></div>
+          <div className={styles.stat}><strong>+200 avis</strong><span>collectés en moyenne en 3 mois</span></div>
           <div className={styles.statDiv}></div>
           <div className={styles.stat}><strong>5 secondes</strong><span>par patient pour votre équipe</span></div>
           <div className={styles.statDiv}></div>
@@ -264,7 +264,7 @@ export default function LandingPage() {
             {[
               { q:"Est-ce conforme au RGPD et au secret médical ?", a:"Oui. Reputo ne collecte aucune donnée médicale. Seul le numéro de téléphone est utilisé, et il est supprimé après envoi du SMS. Aucun contenu médical n'est traité ou stocké." },
               { q:"Mes patients ne vont-ils pas trouver ça intrusif ?", a:"Les SMS post-consultation ont un très bon taux d'acceptation dans le domaine médical. Le message est envoyé une seule fois, personnalisé avec votre nom, et le patient peut simplement ignorer." },
-              { q:"Comment fonctionne le filtre d'étoiles exactement ?", a:"Vous définissez un seuil dans votre tableau de bord (par défaut 4 étoiles). Si un patient donne 4 ou 5 étoiles, il est redirigé vers votre fiche Google. S'il donne 1, 2 ou 3 étoiles, il voit un formulaire de feedback privé dont vous êtes le seul destinataire. Jamais publié." },
+              { q:"Comment fonctionne le filtre d'étoiles exactement ?", a:"Vous définissez un seuil dans votre tableau de bord (par défaut 4 étoiles). Après la notation, tous les patients sont invités à partager leur expérience sur Google. Un formulaire privé permet aussi à chacun de vous envoyer un retour direct — idéal pour améliorer votre cabinet." },
               { q:"Mes crédits expirent-ils ?", a:"Non. Vos crédits SMS sont valables sans limite de durée. Vous achetez quand vous en avez besoin, sans abonnement ni engagement." },
               { q:"Combien de temps pour configurer Reputo ?", a:"Moins de 5 minutes. Vous créez votre compte, renseignez le lien Google de votre cabinet et personnalisez votre SMS. C'est prêt." },
             ].map(f => (

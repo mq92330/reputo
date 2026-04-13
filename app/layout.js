@@ -6,7 +6,7 @@ export const metadata = {
   keywords: 'avis google médecin, avis google dentiste, avis google kinésithérapeute, réputation cabinet médical, SMS avis patients',
   openGraph: {
     title: 'Reputo — Avis Google automatiques pour professionnels de santé',
-    description: 'Filtrez les avis négatifs, boostez votre réputation Google. SMS automatique après chaque consultation.',
+    description: 'Recueillez la satisfaction de vos patients par SMS. Boostez votre réputation Google automatiquement après chaque consultation.',
     type: 'website',
     locale: 'fr_FR',
   },
